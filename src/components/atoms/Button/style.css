@@ -1,0 +1,63 @@
+  .button {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    border: none;
+  }
+  
+  /* Size */
+  .small {
+    width: 218px;
+    height: 47px;
+    line-height: normal;
+    border-radius: 21.8px;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  .medium {
+    width: 222px;
+    height: 65px;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 22.2px;
+    font-size: 23px;
+  }
+  
+  .large {
+    width: 334px;
+    height: 75px;
+    line-height: 21.01px;
+    font-weight: 800;
+    font-size: 29px;
+    border-radius: 33.4px;
+  }
+  
+  /* Theme */
+  .light {
+    background-color: #fff;
+    opacity: 0.9;
+    color: #776c64;
+  }
+  
+  .grey {
+    background-color: grey;
+    color: #fff;
+  }
+
+  .creamy{
+    background-color: #e2a355;
+    color: #fff;
+  }
+
+  .dark {
+    background-color: #54524f;
+    color: #fff;
+
+  }
+
+/* Color */
+
+  
