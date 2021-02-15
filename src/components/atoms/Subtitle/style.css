@@ -1,0 +1,86 @@
+@import '../../../_settings_/_variables.css';
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Size */
+.intro{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.letsgo{
+    font-size: 63px;
+    text-align: left;
+}
+
+.card{
+    font-size: 29px;
+    text-align: left;
+}
+
+.offer{
+    font-size: 58px;
+    text-align: left;
+    
+}
+
+.explore{
+    text-shadow: 3px -4px 5px var(--dark-1);
+    color: var(--dark-1);
+    font-style: italic;
+    font-size: 83px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.loremipsum{
+    font-size: 33px;
+    line-height: 33.24px;
+    text-align: left;
+}
+
+.quotation{
+    font-size: 100px;
+    text-align: center;
+}
+
+.subscribe{
+    font-size: 75px;
+    text-align: center;
+}
+
+.footer{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* color */
+.white{
+    color: var(--white);
+}
+.dark1{
+    color: var(--dark-1);
+}
+
+.dark2{
+    color: var(--dark-2);
+}
+
+.creamy1{
+    color: var(--creamy-1);
+}
+
+.creamy2{
+    color: var(--creamy-2);
+}
+
+/* shadow */
+.shadow{
+    text-shadow: 3px -4px 5px var(--dark-1);
+}

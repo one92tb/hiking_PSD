@@ -1,3 +1,5 @@
+@import '../../../_settings_/_variables.css';
+  
   .button {
     text-align: center;
     text-transform: uppercase;
@@ -39,25 +41,24 @@
   .light {
     background-color: #fff;
     opacity: 0.9;
-    color: #776c64;
+    color: var(--grey-3);
   }
   
   .grey {
-    background-color: grey;
+    background-color: var(--grey-2);
     color: #fff;
   }
 
   .creamy{
-    background-color: #e2a355;
+    background-color: var(--creamy-2);
     color: #fff;
   }
 
   .dark {
-    background-color: #54524f;
+    background-color: var(--dark-1);
     color: #fff;
 
   }
 
-/* Color */
 
   

@@ -1,0 +1,16 @@
+@import '../../../_settings_/_variables.css';
+
+.title{
+  text-shadow: 3px -4px 5px var(--dark-1);
+  color: var(--creamy-2);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 92px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+
+}

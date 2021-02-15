@@ -1,45 +1,49 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 
-import Button, { ButtonSize, ButtonTheme } from '.';
+import Button, { ButtonSize, ButtonTheme, ButtonType } from '.';
 
-const Template = (args) => <Button {...args}>test1</Button>;
+const Template = (args) => <Button {...args}>button</Button>;
 
-export const jumbotronBtn = Template.bind({});
-jumbotronBtn.storyName = 'small light button';
-jumbotronBtn.args = {
+export const JumbotronBtn = Template.bind({});
+JumbotronBtn.storyName = 'small light button';
+JumbotronBtn.args = {
   size: ButtonSize.SMALL,
   theme: ButtonTheme.LIGHT,
+  type: ButtonType.Button,
   onClick: action('clicked'),
 };
 
-export const formBtn = Template.bind({});
-formBtn.storyName = 'medium dark button';
-formBtn.args = {
+export const FormBtn = Template.bind({});
+FormBtn.storyName = 'medium dark button';
+FormBtn.args = {
   size: ButtonSize.MEDIUM,
   theme: ButtonTheme.DARK,
+  type: ButtonType.Button,
   onClick: action('clicked'),
 };
 
-export const showMoreBtn = Template.bind({});
-showMoreBtn.storyName = 'large grey button';
-showMoreBtn.args = {
+export const ShowMoreBtn = Template.bind({});
+ShowMoreBtn.storyName = 'large grey button';
+ShowMoreBtn.args = {
   size: ButtonSize.LARGE,
   theme: ButtonTheme.GREY,
+  type: ButtonType.Button,
   onClick: action('clicked'),
 };
 
-export const readMoreBtn = Template.bind({});
-readMoreBtn.storyName = 'large creamy button';
-readMoreBtn.args = {
+export const ReadMoreBtn = Template.bind({});
+ReadMoreBtn.storyName = 'large creamy button';
+ReadMoreBtn.args = {
   size: ButtonSize.LARGE,
   theme: ButtonTheme.CREAMY,
+  type: ButtonType.SUBMIT,
   onClick: action('clicked'),
 };
 
 export default {
-  title: 'Attoms/Button',
-  component: [jumbotronBtn, showMoreBtn, readMoreBtn, formBtn],
+  title: 'Atoms/Button',
+  component: [JumbotronBtn, ShowMoreBtn, ReadMoreBtn, FormBtn],
   argTypes: {
     size: {
       control: {
@@ -59,6 +63,15 @@ export default {
           ButtonTheme.CREAMY,
           ButtonTheme.GREY,
           ButtonTheme.DARK,
+        ],
+      },
+    },
+    type: {
+      control: {
+        type: 'select',
+        options: [
+          ButtonType.BUTTON,
+          ButtonType.SUBMIT,
         ],
       },
     },

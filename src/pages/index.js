@@ -1,21 +1,23 @@
 import * as React from 'react';
 import './index.css';
-import Button, { ButtonType, ButtonTheme, ButtonSize } from '../components/atoms/Button/index';
-
-const props = {
-  type: ButtonType.BUTTON,
-  theme: ButtonTheme.LIGHT,
-  size: ButtonSize.SMALL,
-  onClick: () => {},
-};
+import Title from '../components/atoms/Title/index';
+import Subtitle, { SubtitleSize, SubtitleColor, SubtitleShadow } from '../components/atoms/Subtitle/index';
 
 const IndexPage = () => (
   <div>
-    <Button {...props}>read more</Button>
-    <Button {...props} size={ButtonSize.MEDIUM} theme={ButtonTheme.DARK}>subscribe</Button>
-    <Button {...props} size={ButtonSize.LARGE} theme={ButtonTheme.GREY}>show more</Button>
-    <Button {...props} size={ButtonSize.LARGE} theme={ButtonTheme.CREAMY}>show more</Button>
-    <Button {...props} size={ButtonSize.LARGE} theme={ButtonTheme.CREAMY}>read more</Button>
+    <Title>
+      it´s time
+      <br />
+      for hiking
+    </Title>
+    <Subtitle size={SubtitleSize.INTRO} color={SubtitleColor.DARK_1}>loremipsum dolor</Subtitle>
+    <Subtitle
+      size={SubtitleSize.LETSGO}
+      color={SubtitleColor.DARK_1}
+      shadow={SubtitleShadow.SHADOW}
+    >
+      let&prime; s go
+    </Subtitle>
   </div>
 );
 

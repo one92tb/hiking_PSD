@@ -21,15 +21,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        fonts: [
-          'Roboto',
-          'Limelight',
-          'Montserrat',
-          'open sans',
-        ],
-        display: 'swap',
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
       },
     },
   ],
