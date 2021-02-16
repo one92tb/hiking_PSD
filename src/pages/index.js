@@ -1,23 +1,12 @@
 import * as React from 'react';
 import './index.css';
-import Title from '../components/atoms/Title/index';
-import Subtitle, { SubtitleSize, SubtitleColor, SubtitleShadow } from '../components/atoms/Subtitle/index';
+import Link, { LinkTheme, LinkSize } from '../components/atoms/Link/index';
+import Subtitle, { SubtitleSize, SubtitleColor } from '../components/atoms/Subtitle/index';
 
 const IndexPage = () => (
   <div>
-    <Title>
-      it´s time
-      <br />
-      for hiking
-    </Title>
     <Subtitle size={SubtitleSize.INTRO} color={SubtitleColor.DARK_1}>loremipsum dolor</Subtitle>
-    <Subtitle
-      size={SubtitleSize.LETSGO}
-      color={SubtitleColor.DARK_1}
-      shadow={SubtitleShadow.SHADOW}
-    >
-      let&prime; s go
-    </Subtitle>
+    <Link size={LinkSize.UPPERCASE} theme={LinkTheme.DARK}>link</Link>
   </div>
 );
 

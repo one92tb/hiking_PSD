@@ -9,7 +9,7 @@
   }
   
   /* Size */
-  .small {
+  .button--small {
     width: 218px;
     height: 47px;
     line-height: normal;
@@ -18,7 +18,7 @@
     font-size: 25px;
   }
 
-  .medium {
+  .button--medium {
     width: 222px;
     height: 65px;
     line-height: normal;
@@ -28,7 +28,7 @@
     font-size: 23px;
   }
   
-  .large {
+  .button--large {
     width: 334px;
     height: 75px;
     line-height: 21.01px;
@@ -38,23 +38,23 @@
   }
   
   /* Theme */
-  .light {
+  .button--light {
     background-color: #fff;
     opacity: 0.9;
     color: var(--grey-3);
   }
   
-  .grey {
+  .button--grey {
     background-color: var(--grey-2);
     color: #fff;
   }
 
-  .creamy{
+  .button--creamy{
     background-color: var(--creamy-2);
     color: #fff;
   }
 
-  .dark {
+  .button--dark {
     background-color: var(--dark-1);
     color: #fff;
 

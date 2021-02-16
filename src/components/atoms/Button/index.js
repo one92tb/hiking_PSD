@@ -9,16 +9,16 @@ export const ButtonType = {
 };
 
 export const ButtonTheme = {
-  LIGHT: 'light',
-  CREAMY: 'creamy',
-  GREY: 'grey',
-  DARK: 'dark',
+  LIGHT: 'button--light',
+  CREAMY: 'button--creamy',
+  GREY: 'button--grey',
+  DARK: 'button--dark',
 };
 
 export const ButtonSize = {
-  SMALL: 'small',
-  MEDIUM: 'medium',
-  LARGE: 'large',
+  SMALL: 'button--small',
+  MEDIUM: 'button--medium',
+  LARGE: 'button--large',
 };
 
 const Button = (props) => {

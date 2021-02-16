@@ -7,53 +7,51 @@
 }
 
 /* Size */
-.intro{
+.subtitle--intro{
     font-size: 25px;
     font-style: italic;
 }
 
-.letsgo{
+.subtitle--letsgo{
     font-size: 63px;
     text-align: left;
 }
 
-.card{
+.subtitle--card{
     font-size: 29px;
     text-align: left;
 }
 
-.offer{
+.subtitle--offer{
     font-size: 58px;
     text-align: left;
     
 }
 
-.explore{
-    text-shadow: 3px -4px 5px var(--dark-1);
-    color: var(--dark-1);
+.subtitle--explore{
     font-style: italic;
     font-size: 83px;
     text-align: right;
     text-transform: uppercase;
 }
 
-.loremipsum{
+.subtitle--loremipsum{
     font-size: 33px;
     line-height: 33.24px;
     text-align: left;
 }
 
-.quotation{
+.subtitle--quotation{
     font-size: 100px;
     text-align: center;
 }
 
-.subscribe{
+.subtitle--subscribe{
     font-size: 75px;
     text-align: center;
 }
 
-.footer{
+.subtitle--footer{
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 400;
@@ -61,26 +59,26 @@
 }
 
 /* color */
-.white{
+.subtitle--white{
     color: var(--white);
 }
-.dark1{
+.subtitle--dark1{
     color: var(--dark-1);
 }
 
-.dark2{
+.subtitle--dark2{
     color: var(--dark-2);
 }
 
-.creamy1{
+.subtitle--creamy1{
     color: var(--creamy-1);
 }
 
-.creamy2{
+.subtitle--creamy2{
     color: var(--creamy-2);
 }
 
 /* shadow */
-.shadow{
+.subtitle--shadow{
     text-shadow: 3px -4px 5px var(--dark-1);
 }

@@ -4,23 +4,23 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 export const SubtitleSize = {
-  INTRO: 'intro',
-  LETSGO: 'letsgo',
-  CARD: 'card',
-  OFFER: 'offer',
-  EXPLORE: 'explore',
-  LOREMIPSUM: 'loremipsum',
-  QUOTATION: 'quotation',
-  SUBSCRIBE: 'subscribe',
-  FOOTER: 'footer',
+  INTRO: 'subtitle--intro',
+  LETSGO: 'subtitle--letsgo',
+  CARD: 'subtitle--card',
+  OFFER: 'subtitle--offer',
+  EXPLORE: 'subtitle--explore',
+  LOREMIPSUM: 'subtitle--loremipsum',
+  QUOTATION: 'subtitle--quotation',
+  SUBSCRIBE: 'subtitle--subscribe',
+  FOOTER: 'subtitle--footer',
 };
 
 export const SubtitleColor = {
-  WHITE: 'white',
-  DARK_1: 'dark1',
-  DARK_2: 'dark2',
-  CREAMY_1: 'creamy1',
-  CREAMY_2: 'creamy2',
+  WHITE: 'subtitle--white',
+  DARK_1: 'subtitle--dark1',
+  DARK_2: 'subtitle--dark2',
+  CREAMY_1: 'subtitle--creamy1',
+  CREAMY_2: 'subtitle--creamy2',
 };
 
 export const SubtitleShadow = {
@@ -37,7 +37,7 @@ const Subtitle = (props) => {
   } = props;
 
   if (shadow) {
-    shadow = 'shadow';
+    shadow = 'subtitle--shadow';
   }
 
   const classProps = classnames(
