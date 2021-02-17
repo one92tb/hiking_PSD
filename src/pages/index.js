@@ -1,16 +1,15 @@
 import * as React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faSearch,
-} from '@fortawesome/free-solid-svg-icons';
-import Subtitle, { SubtitleSize, SubtitleColor } from '../components/atoms/Subtitle/index';
-import Input, { InputSize, InputColor } from '../components/atoms/Input/index';
+import Nav, { NavLinks, NavPosition } from '../components/molecules/Nav/index';
+import { LinkSize, LinkTheme } from '../components/atoms/Link/index';
 
 const IndexPage = () => (
   <div>
-    <FontAwesomeIcon icon={faSearch} className="size" />
-    <Subtitle size={SubtitleSize.INTRO} color={SubtitleColor.DARK_1}>loremipsum dolor</Subtitle>
-    <Input size={InputSize.SMALL} color={InputColor.DARK} />
+    <Nav
+      links={NavLinks.INTRO}
+      linkSize={LinkSize.UPPERCASE}
+      linkTheme={LinkTheme.DARK}
+      position={NavPosition.HORIZONTAL}
+    />
   </div>
 );
 

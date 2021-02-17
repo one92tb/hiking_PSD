@@ -1,0 +1,14 @@
+/* size */
+.nav{
+    display: flex;
+}
+.horizontal{
+    width: 794px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical{
+   flex-direction: column;
+   width: 205px;
+}
