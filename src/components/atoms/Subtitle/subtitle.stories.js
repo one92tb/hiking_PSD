@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Subtitle, { SubtitleColor, SubtitleShadow, SubtitleSize } from '.';
 
 const Template = (args) => <Subtitle {...args}>SubTitle</Subtitle>;

@@ -3,6 +3,7 @@ module.exports = {
     title: 'hiking_PSD',
   },
   plugins: [
+    'gatsby-plugin-fontawesome-css',
     {
       resolve: 'gatsby-source-contentful',
       options: {
