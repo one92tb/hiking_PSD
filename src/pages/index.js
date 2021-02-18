@@ -1,8 +1,11 @@
 import * as React from 'react';
-import Header from '../components/organisms/Header/index';
+import Intro from './Intro/index';
+import Layout from '../components/Layout/layout';
 
 const IndexPage = () => (
-  <Header />
+  <Layout>
+    <Intro />
+  </Layout>
 );
 
 export default IndexPage;
