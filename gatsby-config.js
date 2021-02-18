@@ -1,8 +1,19 @@
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
     title: 'hiking_PSD',
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: path.join(__dirname, 'src', 'images'),
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-fontawesome-css',
     {
       resolve: 'gatsby-source-contentful',
