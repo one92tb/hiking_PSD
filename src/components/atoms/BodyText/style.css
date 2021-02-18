@@ -1,0 +1,106 @@
+@import '../../../_settings_/_variables.css';
+
+.bodyText{
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+/* size */
+.size--intro{
+    font-size: 21px;
+    letter-spacing: 0.96px;
+    text-align: left;
+    width: 475px;
+}
+
+.size--letsgo{
+    width: 694px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.size--card{
+    width: 299px;
+    font-size: 23px;
+    text-align: left;
+}
+
+.size--offer{
+    width: 505px;
+    font-size: 29px;
+    line-height: 23.63px;
+    text-align: left;
+}
+
+.size--description{
+    width: 895px;
+    text-align: center;
+    font-size: 29px;
+}
+
+.size--loremipsum{
+    width: 332px;
+    font-size: 19px;
+    line-height: 24.93px;
+    text-align: left;
+}
+
+.size--quotation{
+    font-size: 25px;
+    width: 792px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.size--subscribe{
+    width: 890px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.size--footer{
+    width: 457px;
+    font-size: 24px;
+    text-align: left;
+}
+
+/* theme */
+
+.theme--intro{
+    font-family: "Open Sans";
+    font-style: italic;
+    color: var(--white);
+}
+
+.theme--letsgo{
+    color: var(--grey-2);
+}
+
+.theme--card{
+    color: var(--white);
+}
+
+.theme--offer{
+    color: var(--white);
+}
+
+.theme--description{
+    color: var(--grey-1);
+}
+
+.theme--loremipsum{
+    color: var(--dark-3);
+}
+
+.theme--quotation{
+    color: var(--dark-2)
+}
+
+.theme--subscribe{
+    color: var(--dark-1);
+}
+
+.theme--footer{
+    font-family: 'Montserrat';
+    color: var(--white);
+}
