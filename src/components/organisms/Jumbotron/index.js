@@ -19,7 +19,7 @@ const Jumbotron = (props) => {
       <Button size={ButtonSize.SMALL} theme={ButtonTheme.LIGHT}>read more</Button>
       <BodyText
         bodyTextTheme={BodyTextTheme.INTRO}
-        bodyTextSize={BodyTextSize.INTO}
+        bodyTextSize={BodyTextSize.INTRO}
       >
         {text}
       </BodyText>

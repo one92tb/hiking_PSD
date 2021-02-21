@@ -26,7 +26,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.link--dark:hover {
+    color: var(--creamy-2);
+}
+
 .link--light{
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
 }
+

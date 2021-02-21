@@ -1,6 +1,7 @@
 /* size */
 .nav{
     display: flex;
+    z-index: 1;
 }
 .horizontal{
     width: 794px;

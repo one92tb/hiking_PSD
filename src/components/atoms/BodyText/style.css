@@ -70,7 +70,7 @@
 .theme--intro{
     font-family: "Open Sans";
     font-style: italic;
-    color: var(--white);
+    color: var(--dark-1);
 }
 
 .theme--letsgo{

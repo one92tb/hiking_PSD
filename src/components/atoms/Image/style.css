@@ -1,15 +1,13 @@
-/* size */
-.logo{
-    width: 91px;
-    height: 94px;
+.image{
+    z-index: 1;
 }
 
-.card{
-    width:339px;
-    height: 309px;
+.position--up{
+    position: absolute;
+    top: 0;
 }
 
-.offer{
-    width: 717px;
-    height: 780px;
+.position--down{
+    position: absolute;
+    bottom: 0;
 }

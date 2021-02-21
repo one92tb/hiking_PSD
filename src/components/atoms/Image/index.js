@@ -2,40 +2,49 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import './style.css';
-import logo from '../../../images/logo.png';
 
-export const ImageSize = {
-  LOGO: 'logo',
-  CARD: 'card',
-  OFFER: 'offer',
+export const ImagePosition = {
+  UP: 'position--up',
+  DOWN: 'position--down',
 };
 
 const Image = (props) => {
   const {
-    imageBoxSize,
+    width,
+    height,
     className,
+    position,
+    url,
+    alt,
   } = props;
 
   const classProps = classnames(
-    imageBoxSize,
+    'image',
+    position,
     className,
   );
 
   return (
-    <div className={classProps}>
-      <img src={logo} alt="Logo" />
-    </div>
+    <img className={classProps} src={url} alt={alt} width={width} height={height} />
   );
 };
 
 Image.defaultProps = {
-  imageBoxSize: ImageSize.LOGO,
   className: '',
+  width: '91',
+  height: '94',
+  position: '',
+  url: '',
+  alt: '',
 };
 
 Image.propTypes = {
-  imageBoxSize: PropTypes.string,
   className: PropTypes.string,
+  width: PropTypes.string,
+  height: PropTypes.string,
+  position: PropTypes.string,
+  url: PropTypes.string,
+  alt: PropTypes.string,
 };
 
 export default Image;
