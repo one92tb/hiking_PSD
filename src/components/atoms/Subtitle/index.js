@@ -4,15 +4,15 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 export const SubtitleSize = {
-  INTRO: 'subtitle--intro',
-  LETSGO: 'subtitle--letsgo',
-  CARD: 'subtitle--card',
-  OFFER: 'subtitle--offer',
-  EXPLORE: 'subtitle--explore',
-  LOREMIPSUM: 'subtitle--loremipsum',
-  QUOTATION: 'subtitle--quotation',
-  SUBSCRIBE: 'subtitle--subscribe',
-  FOOTER: 'subtitle--footer',
+  INTRO: 'subtitle_size--intro',
+  LETSGO: 'subtitle_size--letsgo',
+  CARD: 'subtitle_size--card',
+  OFFER: 'subtitle_size--offer',
+  EXPLORE: 'subtitle_size--explore',
+  LOREMIPSUM: 'subtitle_size--loremipsum',
+  QUOTATION: 'subtitle_size--quotation',
+  SUBSCRIBE: 'subtitle_size--subscribe',
+  FOOTER: 'subtitle_size--footer',
 };
 
 export const SubtitleColor = {

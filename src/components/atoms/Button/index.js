@@ -21,15 +21,20 @@ export const ButtonSize = {
   LARGE: 'button--large',
 };
 
+export const ButtonPosition = {
+  CENTER: 'button--center',
+};
+
 const Button = (props) => {
   const {
-    type, onClick, children, theme, size, className,
+    type, onClick, children, theme, size, className, position,
   } = props;
   const classProps = classnames(
     'button',
     theme,
     size,
     className,
+    position,
   );
   return (
     <button type={type} onClick={onClick} className={classProps}>
@@ -44,6 +49,7 @@ Button.defaultProps = {
   size: ButtonSize.SMALL,
   onClick: () => {},
   className: '',
+  position: '',
 };
 
 Button.propTypes = {
@@ -52,6 +58,7 @@ Button.propTypes = {
   size: PropTypes.string,
   onClick: PropTypes.func,
   className: PropTypes.string,
+  position: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
 

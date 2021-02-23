@@ -8,51 +8,54 @@
 }
 
 /* Size */
-.subtitle--intro{
+.subtitle_size--intro{
     font-size: 25px;
     font-style: italic;
     padding: 7.5px 0 61.5px 2px;
 }
 
-.subtitle--letsgo{
+.subtitle_size--letsgo{
     font-size: 63px;
-    text-align: left;
+    text-align: center;
+    font-weight: 800;
 }
 
-.subtitle--card{
+.subtitle_size--card{
     font-size: 29px;
     text-align: left;
+    text-transform: none;
+    margin-left: 18px;
+    padding: 49.5px 0 18.5px 0;
 }
 
-.subtitle--offer{
+.subtitle_size--offer{
     font-size: 58px;
     text-align: left;
 }
 
-.subtitle--explore{
+.subtitle_size--explore{
     font-style: italic;
     font-size: 83px;
     text-align: right;
-    text-transform: uppercase;
 }
 
-.subtitle--loremipsum{
+.subtitle_size--loremipsum{
     font-size: 33px;
     line-height: 33.24px;
     text-align: left;
 }
 
-.subtitle--quotation{
+.subtitle_size--quotation{
     font-size: 100px;
     text-align: center;
 }
 
-.subtitle--subscribe{
+.subtitle_size--subscribe{
     font-size: 75px;
     text-align: center;
 }
 
-.subtitle--footer{
+.subtitle_size--footer{
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 400;

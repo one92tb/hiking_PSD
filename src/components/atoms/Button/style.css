@@ -7,6 +7,7 @@
     letter-spacing: normal;
     border: none;
     cursor: pointer;
+    display: block;
   }
   
   /* Size */
@@ -58,8 +59,13 @@
   .button--dark {
     background-color: var(--dark-1);
     color: #fff;
-
   }
 
+  /* position */
+
+  .button--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   

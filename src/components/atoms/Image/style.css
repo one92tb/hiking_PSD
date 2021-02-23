@@ -1,13 +1,55 @@
-.image{
+/* position */
+.img_position--shapeUp{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img_position--shapeDown{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img_position--snowFirst{
+    position: absolute;
+    bottom: 25px;
+    left: -344px;
+}
+
+.img_position--snowSecond{
+    position: absolute;
+    bottom: -72px;
+    right: 253px;
+}
+
+/* size image box*/ 
+.imgBox_size--logo{
+    width: 91px;
+    height: 94px;
     z-index: 1;
 }
 
-.position--up{
-    position: absolute;
-    top: 0;
+.imgBox_size--card{
+    width: 339px;
+    height: 309px;
+    z-index: 1;
 }
 
-.position--down{
-    position: absolute;
-    bottom: 0;
+.imgBox_size--offer{
+    width: 717px;
+    height: 780px;
+    z-index: 1;
+}
+
+.imgBox_size--snowFirst{
+    width: 876px;
+    height: 512px;
+    z-index: 1;
+}
+
+.imgBox_size--snowSecond{
+    width: 812px;
+    height: 579px;
+    z-index: 1;
 }

@@ -3,24 +3,26 @@ import PropTypes from 'prop-types';
 import Header from '../../organisms/Header/index';
 import Jumbotron from '../../organisms/Jumbotron/index';
 import Image, { ImagePosition } from '../../atoms/Image/index';
-import './style.css';
 import Shape1 from '../../../images/shape_1.png';
 import Shape2 from '../../../images/shape_2.png';
+import './style.css';
 
 const IntroTemplate = (props) => {
   const { bodyText } = props;
   return (
     <section className="wrapper">
-      <Image width="100%" height="196" position={ImagePosition.UP} url={Shape1} />
-      <Header />
-      <Jumbotron text={bodyText} />
-      <Image width="100%" height="147" position={ImagePosition.DOWN} url={Shape2} />
+      <div className="inner">
+        <Image width="100%" height="196" position={ImagePosition.SHAPE_UP} url={Shape1} />
+        <Header />
+        <Jumbotron text={bodyText} />
+        <Image width="100%" height="147" position={ImagePosition.SHAPE_DOWN} url={Shape2} />
+      </div>
     </section>
   );
 };
 
 IntroTemplate.defaultProps = {
-  bodyText: 'lorem ipsum dolor',
+  bodyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 };
 
 IntroTemplate.propTypes = {

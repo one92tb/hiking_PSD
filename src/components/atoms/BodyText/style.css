@@ -2,11 +2,11 @@
 
 .bodyText{
     margin: 0;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* size */
-.size--intro{
+.bodyText_size--intro{
     font-size: 21px;
     letter-spacing: 0.96px;
     text-align: left;
@@ -14,52 +14,58 @@
     padding: 24px 0 215px 0;
 }
 
-.size--letsgo{
+.bodyText_size--letsgo{
     width: 694px;
     font-size: 27px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24.5px 0 71.5px 0;
 }
 
-.size--card{
-    width: 299px;
+.bodyText_size--card{
+    max-width: 299px;
     font-size: 23px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 72px;
 }
 
-.size--offer{
+.bodyText_size--offer{
     width: 505px;
     font-size: 29px;
     line-height: 23.63px;
     text-align: left;
 }
 
-.size--description{
+.bodyText_size--description{
     width: 895px;
     text-align: center;
     font-size: 29px;
 }
 
-.size--loremipsum{
+.bodyText_size--loremipsum{
     width: 332px;
     font-size: 19px;
     line-height: 24.93px;
     text-align: left;
 }
 
-.size--quotation{
+.bodyText_size--quotation{
     font-size: 25px;
     width: 792px;
     text-align: center;
     font-weight: 600;
 }
 
-.size--subscribe{
+.bodyText_size--subscribe{
     width: 890px;
     font-size: 30px;
     text-align: center;
 }
 
-.size--footer{
+.bodyText_size--footer{
     width: 457px;
     font-size: 24px;
     text-align: left;
@@ -67,41 +73,41 @@
 
 /* theme */
 
-.theme--intro{
-    font-family: "Open Sans";
+.bodyText_theme--intro{
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     color: var(--dark-1);
 }
 
-.theme--letsgo{
+.bodyText_theme--letsgo{
     color: var(--grey-2);
 }
 
-.theme--card{
+.bodyText_theme--card{
     color: var(--white);
 }
 
-.theme--offer{
+.bodyText_theme--offer{
     color: var(--white);
 }
 
-.theme--description{
+.bodyText_theme--description{
     color: var(--grey-1);
 }
 
-.theme--loremipsum{
+.bodyText_theme--loremipsum{
     color: var(--dark-3);
 }
 
-.theme--quotation{
+.bodyText_theme--quotation{
     color: var(--dark-2)
 }
 
-.theme--subscribe{
+.bodyText_theme--subscribe{
     color: var(--dark-1);
 }
 
-.theme--footer{
+.bodyText_theme--footer{
     font-family: 'Montserrat';
     color: var(--white);
 }
