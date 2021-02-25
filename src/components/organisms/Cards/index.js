@@ -7,7 +7,8 @@ const Cards = (props) => {
   const { edges } = props;
   return (
     <div className="cards">
-      {edges.map((edge) => <Card data={edge} />)}
+      {edges.sort((first, second) => first.node.order - second.node.order)
+        .map((edge) => <Card key={edge.node.order} data={edge} />)}
     </div>
   );
 };
@@ -17,7 +18,7 @@ export default Cards;
 Cards.propTypes = {
   edges: PropTypes.arrayOf(PropTypes.shape({
     node: PropTypes.shape({
-      id: PropTypes.string,
+      order: PropTypes.number,
       image: PropTypes.shape({
         file: PropTypes.shape({
           contentType: PropTypes.string,
@@ -36,7 +37,7 @@ Cards.propTypes = {
 Cards.defaultProps = {
   edges: [{
     node: {
-      id: '',
+      order: 1,
       image: {
         file: {
           contentType: 'image/png',

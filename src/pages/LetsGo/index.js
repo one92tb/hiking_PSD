@@ -17,7 +17,7 @@ const LetsGo = () => (
         allContentfulHikingLetsgo {
           edges {
             node {
-              id
+              order
               title
               text
               image {

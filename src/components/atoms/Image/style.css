@@ -1,54 +1,49 @@
 /* position */
-.img_position--shapeUp{
+.imgBox--shapeUp{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
-.img_position--shapeDown{
+.imgBox--shapeDown{
     position: absolute;
     bottom: 0;
     left: 0;
-}
-
-.img_position--snowFirst{
-    position: absolute;
-    bottom: 25px;
-    left: -344px;
-}
-
-.img_position--snowSecond{
-    position: absolute;
-    bottom: -72px;
-    right: 253px;
+    width: 100%;
 }
 
 /* size image box*/ 
-.imgBox_size--logo{
+.imgBox--logo{
     width: 91px;
     height: 94px;
     z-index: 1;
 }
 
-.imgBox_size--card{
+.imgBox--card{
     width: 339px;
     height: 309px;
     z-index: 1;
 }
 
-.imgBox_size--offer{
+.imgBox--offer{
     width: 717px;
     height: 780px;
     z-index: 1;
 }
 
-.imgBox_size--snowFirst{
+.imgBox--snowFirst{
     width: 876px;
     height: 512px;
     z-index: 1;
+    position: absolute;
+    bottom: -72px;
+    left: -344px;
+    opacity: 0.44;
 }
 
-.imgBox_size--snowSecond{
+.imgBox--snowSecond{
+    position: absolute;
     width: 812px;
     height: 579px;
     z-index: 1;

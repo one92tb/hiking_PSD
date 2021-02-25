@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '../../organisms/Header/index';
 import Jumbotron from '../../organisms/Jumbotron/index';
-import Image, { ImagePosition } from '../../atoms/Image/index';
+import Image, { shapePosition } from '../../atoms/Image/index';
 import Shape1 from '../../../images/shape_1.png';
 import Shape2 from '../../../images/shape_2.png';
 import './style.css';
@@ -12,10 +12,10 @@ const IntroTemplate = (props) => {
   return (
     <section className="wrapper">
       <div className="inner">
-        <Image width="100%" height="196" position={ImagePosition.SHAPE_UP} url={Shape1} />
+        <Image width="100%" height="196" position={shapePosition.SHAPE_UP} url={Shape1} />
         <Header />
         <Jumbotron text={bodyText} />
-        <Image width="100%" height="147" position={ImagePosition.SHAPE_DOWN} url={Shape2} />
+        <Image width="100%" height="147" position={shapePosition.SHAPE_DOWN} url={Shape2} />
       </div>
     </section>
   );

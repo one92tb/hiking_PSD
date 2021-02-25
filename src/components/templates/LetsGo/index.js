@@ -5,6 +5,8 @@ import Subtitle, { SubtitleColor, SubtitleSize } from '../../atoms/Subtitle/inde
 import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/index';
 import Cards from '../../organisms/Cards/index';
 import Button, { ButtonSize, ButtonTheme, ButtonPosition } from '../../atoms/Button/index';
+import Image, { ImageBox } from '../../atoms/Image/index';
+import snowFirst from '../../../images/snowFirst.png';
 
 const LetsGoTemplate = (props) => {
   const { data } = props;
@@ -12,7 +14,7 @@ const LetsGoTemplate = (props) => {
   const { edges } = data.allContentfulHikingLetsgo;
 
   return (
-    <section className="letsGoInner">
+    <section className="letsGoWrapper">
       <Subtitle size={SubtitleSize.LETSGO} color={SubtitleColor.CREAMY_2}>
         {title}
       </Subtitle>
@@ -25,6 +27,13 @@ const LetsGoTemplate = (props) => {
       >
         show more
       </Button>
+      <Image
+        size={ImageBox.SNOW_FIRST}
+        alt="first_snow"
+        url={snowFirst}
+        width="876"
+        height="512"
+      />
     </section>
   );
 };
@@ -34,7 +43,7 @@ LetsGoTemplate.defualtProps = {
     allContentfulHikingLetsgo: {
       edges: [{
         node: {
-          id: '1',
+          order: 1,
           image: {
             file: {
               contentType: 'contentType',
@@ -67,7 +76,7 @@ LetsGoTemplate.propTypes = {
     allContentfulHikingLetsgo: PropTypes.shape({
       edges: PropTypes.arrayOf(PropTypes.shape({
         node: PropTypes.shape({
-          id: PropTypes.string,
+          order: PropTypes.number,
           image: PropTypes.shape({
             file: PropTypes.shape({
               contentType: PropTypes.string,

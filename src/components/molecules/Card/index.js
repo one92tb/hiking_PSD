@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Subtitle, { SubtitleColor, SubtitleSize } from '../../atoms/Subtitle/index';
 import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/index';
-import Image, { ImageBoxSize } from '../../atoms/Image/index';
+import Image, { ImageBox } from '../../atoms/Image/index';
 import './style.css';
 
 const Card = (props) => {
@@ -11,7 +11,7 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <Image width="339" height="309" url={image.file.url} alt="lorem img" size={ImageBoxSize.CARD} />
+      <Image width="339" height="309" url={image.file.url} alt="lorem img" size={ImageBox.CARD} />
       <Subtitle size={SubtitleSize.CARD} color={SubtitleColor.WHITE}>{title}</Subtitle>
       <BodyText size={BodyTextSize.CARD} theme={BodyTextTheme.CARD}>
         {text}
@@ -25,7 +25,7 @@ export default Card;
 Card.propTypes = {
   data: PropTypes.shape({
     node: PropTypes.shape({
-      id: PropTypes.string,
+      order: PropTypes.number,
       image: PropTypes.shape({
         file: PropTypes.shape({
           contentType: PropTypes.string,
@@ -44,7 +44,7 @@ Card.propTypes = {
 Card.defaultProps = {
   data: {
     node: {
-      id: '',
+      order: 1,
       image: {
         file: {
           contentType: 'image/png',

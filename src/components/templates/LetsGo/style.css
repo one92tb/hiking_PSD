@@ -1,6 +1,7 @@
-.letsGoInner{
+.letsGoWrapper{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px 0 183px 0;
+    padding: 24px 0 182px 0;
+    position: relative;
 }
