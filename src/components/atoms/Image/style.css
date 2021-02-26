@@ -1,12 +1,12 @@
 /* position */
-.imgBox--shapeUp{
+.img--shapeUp{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.imgBox--shapeDown{
+.img--shapeDown{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -37,7 +37,7 @@
     height: 512px;
     z-index: 1;
     position: absolute;
-    bottom: -72px;
+    bottom: 25px;
     left: -344px;
     opacity: 0.44;
 }

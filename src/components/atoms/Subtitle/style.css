@@ -31,6 +31,10 @@
 .subtitle_size--offer{
     font-size: 58px;
     text-align: left;
+    max-width: 533px;
+    text-transform: none;
+    padding-top: 162.5px;
+    padding-bottom: 34px;
 }
 
 .subtitle_size--explore{

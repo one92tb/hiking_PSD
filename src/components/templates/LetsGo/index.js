@@ -14,7 +14,7 @@ const LetsGoTemplate = (props) => {
   const { edges } = data.allContentfulHikingLetsgo;
 
   return (
-    <section className="letsGoWrapper">
+    <section className="wrapper--letsGo">
       <Subtitle size={SubtitleSize.LETSGO} color={SubtitleColor.CREAMY_2}>
         {title}
       </Subtitle>

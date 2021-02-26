@@ -11,8 +11,8 @@ export const ImageBox = {
 };
 
 export const shapePosition = {
-  SHAPE_UP: 'imgBox--shapeUp',
-  SHAPE_DOWN: 'imgBox--shapeDown',
+  SHAPE_UP: 'img--shapeUp',
+  SHAPE_DOWN: 'img--shapeDown',
 };
 
 const Image = (props) => {

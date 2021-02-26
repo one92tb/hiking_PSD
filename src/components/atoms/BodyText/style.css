@@ -10,12 +10,12 @@
     font-size: 21px;
     letter-spacing: 0.96px;
     text-align: left;
-    width: 475px;
+    max-width: 475px;
     padding: 25.5px 0 216.5px 0;
 }
 
 .bodyText_size--letsgo{
-    width: 694px;
+    max-width: 694px;
     font-size: 27px;
     text-align: center;
     margin-left: auto;
@@ -33,20 +33,20 @@
 }
 
 .bodyText_size--offer{
-    width: 505px;
-    font-size: 29px;
-    line-height: 23.63px;
+    max-width: 550px;
+    font-size: 33px;
     text-align: left;
+    padding-bottom: 43.5px;
 }
 
 .bodyText_size--description{
-    width: 895px;
+    max-width: 895px;
     text-align: center;
     font-size: 29px;
 }
 
 .bodyText_size--loremipsum{
-    width: 332px;
+    max-width: 332px;
     font-size: 19px;
     line-height: 24.93px;
     text-align: left;
@@ -54,19 +54,19 @@
 
 .bodyText_size--quotation{
     font-size: 25px;
-    width: 792px;
+    max-width: 792px;
     text-align: center;
     font-weight: 600;
 }
 
 .bodyText_size--subscribe{
-    width: 890px;
+    max-width: 890px;
     font-size: 30px;
     text-align: center;
 }
 
 .bodyText_size--footer{
-    width: 457px;
+    max-width: 457px;
     font-size: 24px;
     text-align: left;
 }

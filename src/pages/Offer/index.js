@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
+import OfferTemplate from '../../components/templates/Offer/index';
 
 const Offer = () => (
   <StaticQuery
@@ -12,6 +13,7 @@ const Offer = () => (
                 title
                 text
                 image {
+                  title
                   file {
                     url
                     fileName
@@ -23,7 +25,7 @@ const Offer = () => (
           }
         }
       `}
-    render={(data) => <pre>{JSON.stringify(data, null, 4)}</pre>}
+    render={(data) => <OfferTemplate data={data} />}
   />
 );
 

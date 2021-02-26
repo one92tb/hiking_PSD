@@ -10,7 +10,7 @@ import './style.css';
 const IntroTemplate = (props) => {
   const { bodyText } = props;
   return (
-    <section className="wrapper">
+    <section className="wrapper--intro">
       <div className="inner">
         <Image width="100%" height="196" position={shapePosition.SHAPE_UP} url={Shape1} />
         <Header />
