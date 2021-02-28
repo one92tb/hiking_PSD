@@ -1,0 +1,30 @@
+@import '../../../_settings_/_variables.css';
+
+.hamburger{
+    z-index: 1;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+.toggle{
+    width: 30px;
+    height: 5px;
+    background: var(--grey-2);
+    margin: 4px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+input[type=checkbox]:checked + div{
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+input[type=checkbox]:checked ~ div:nth-of-type(2){
+    opacity: 0;
+}
+
+input[type=checkbox]:checked ~ div:nth-of-type(3){
+    transform: rotate(-45deg) translate(8px, -8px);
+}

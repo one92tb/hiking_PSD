@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 export const ImageBox = {
-  LOGO: 'imgBox-logo',
+  LOGO: 'imgBox--logo',
   CARD: 'imgBox--card',
   OFFER: 'imgBox--offer',
   SNOW_FIRST: 'imgBox--snowFirst',

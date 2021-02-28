@@ -6,6 +6,7 @@ import './style.css';
 export const InputSize = {
   SMALL: 'input--small',
   LARGE: 'input--large',
+  HIDDEN: 'input--hiden',
 };
 
 export const InputColor = {
@@ -15,7 +16,7 @@ export const InputColor = {
 
 const Input = (props) => {
   const {
-    size, color, className,
+    size, color, className, type, id,
   } = props;
 
   const classProps = classnames(
@@ -26,14 +27,16 @@ const Input = (props) => {
   );
 
   if (size === 'input--small') {
-    return <input type="text" placeholder="&#61442;" className={classProps} />;
+    return <input type={type} placeholder="&#61442;" className={classProps} />;
   }
-  return <input type="text" placeholder="Your Email" className={classProps} />;
+  return <input type={type} placeholder="Your Email" className={classProps} id={id} />;
 };
 
 Input.defaultProps = {
   size: 'input--small',
   color: 'input--dark',
+  type: 'text',
+  id: 'toggle',
   className: '',
 };
 
@@ -41,6 +44,8 @@ Input.propTypes = {
   size: PropTypes.string,
   color: PropTypes.string,
   className: PropTypes.string,
+  type: PropTypes.string,
+  id: PropTypes.string,
 };
 
 export default Input;

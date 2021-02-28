@@ -38,7 +38,7 @@ const Nav = (props) => {
         <Link key={link} size={linkSize} theme={linkTheme}>{link}</Link>
       ))}
       {NavLinks.INTRO.length === links.length
-        && <Input size={InputSize.SMALL} color={InputColor.DARK} />}
+        && <Input size={InputSize.SMALL} color={InputColor.DARK} type="text" />}
     </nav>
   );
 };
