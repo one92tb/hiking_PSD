@@ -8,7 +8,7 @@ const OfferTemplate = (props) => {
   const { edges } = data.allContentfulHikingOffer;
 
   return (
-    <section>
+    <section className="wrapper--offer">
       { edges.sort((first, second) => first.node.order - second.node.order)
         .map((edge) => <Discount edge={edge} key={edge.node.title} />)}
     </section>

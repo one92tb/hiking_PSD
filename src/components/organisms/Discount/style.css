@@ -7,22 +7,19 @@
 .wrapper--discount:first-child{
     background-color: var(--grey-2);
 }
+
 .wrapper--discount:first-child > div { 
     flex-direction: row-reverse;
-    padding-right: 127px;
+}
+
+.wrapper--discount > div > div:first-child {
+    padding-left: 62px;
     box-sizing: border-box;
 }
 
-.wrapper--discount:nth-child(2) {
-    padding-left: 135px;
-    box-sizing: border-box;
-}
 
 .inner--discount{
     display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
+    justify-content: center;
 }
