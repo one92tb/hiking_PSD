@@ -6,8 +6,9 @@ export const ImageBox = {
   LOGO: 'imgBox--logo',
   CARD: 'imgBox--card',
   OFFER: 'imgBox--offer',
-  LEAF_FIRST: 'imgBox--leafFirst',
-  LEAF_SECOND: 'imgBox--leafSecond',
+  SHODOW_FIRST: 'imgBox--shadow_1',
+  SHADOW_SECOND: 'imgBox--shadow_2',
+  SHADOW_THIRD: 'imgBox--shadow_3',
 };
 
 export const ShapePosition = {

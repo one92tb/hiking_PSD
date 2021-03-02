@@ -39,7 +39,7 @@
     z-index: 1;
 }
 
-.imgBox--leafFirst {
+.imgBox--shadow_1 {
     width: 876px;
     height: 512px;
     z-index: 1;
@@ -49,11 +49,13 @@
     opacity: 0.44;
 }
 
-.imgBox--leafSecond {
+.imgBox--shadow_2 {
     position: absolute;
-    width: 812px;
-    height: 579px;
+    width: 876px;
+    height: 512px;
     z-index: 1;
+    top: 155px;
+    left: -327px;
 }
 
 @media only screen and (min-width:321px) and (max-width: 768px) {

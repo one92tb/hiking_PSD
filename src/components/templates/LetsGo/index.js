@@ -6,7 +6,7 @@ import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/inde
 import Cards from '../../organisms/Cards/index';
 import Button, { ButtonSize, ButtonTheme, ButtonPosition } from '../../atoms/Button/index';
 import Image, { ImageBox } from '../../atoms/Image/index';
-import leafFirst from '../../../images/leafFirst.png';
+import shadowFirst from '../../../images/shadow_1.png';
 
 const LetsGoTemplate = (props) => {
   const { data } = props;
@@ -28,9 +28,9 @@ const LetsGoTemplate = (props) => {
         show more
       </Button>
       <Image
-        size={ImageBox.SNOW_FIRST}
-        alt="leafFirst"
-        url={leafFirst}
+        size={ImageBox.SHODOW_FIRST}
+        alt="shadowFirst"
+        url={shadowFirst}
         width="876"
         height="512"
       />
