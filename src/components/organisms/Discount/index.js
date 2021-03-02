@@ -15,8 +15,8 @@ const Discount = (props) => {
         <Image
           url={image.file.url}
           alt={image.title}
-          width="720"
-          height="780"
+          width="100%"
+          height="100%"
           size={ImageBox.OFFER}
         />
       </div>

@@ -130,6 +130,12 @@
         padding-bottom: 43.2px;
         margin-left: 10px;
     }
+
+    .bodyText_size--offer {
+        max-width: 550px;
+        font-size: 23.1px;
+        padding-bottom: 26.1px;
+    }
   }
   
 
@@ -151,6 +157,12 @@
         font-size: 13.8px;
         padding-bottom: 36px;
         margin-left: 10px;
+    }
+
+    .bodyText_size--offer {
+        max-width: 300px;
+        font-size: 19.8px;
+        padding-bottom: 26.1px;
     }
 }
 

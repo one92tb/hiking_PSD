@@ -23,3 +23,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .wrapper--discount > div > div:first-child {
+        padding-left: 10px;
+    }
+}

@@ -106,6 +106,12 @@
         margin-left: 10px;
         padding: 29.1px 0 11.1px 0;
     }
+
+    .subtitle_size--offer {
+        font-size: 40.6;
+        padding-top: 97.5px;
+        padding-bottom: 20.4px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -122,5 +128,12 @@
         font-size: 17.4x;
         margin-left: 10px;
         padding: 24.25px 0 9.25px 0;
+    }
+
+    .subtitle_size--offer {
+        font-size: 34.8px;
+        max-width: 300px;
+        padding-top: 81.25px;
+        padding-bottom: 17px;
     }
 }
