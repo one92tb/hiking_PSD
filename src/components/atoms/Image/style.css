@@ -77,17 +77,21 @@
         height: 247.2px;
     }
 
-    .imgBox--snowFirst {
+    .imgBox--shadow_1 {
         display: none;
     }
     
-    .imgBox--snowSecond {
+    .imgBox--shadow_2 {
         display: none;
     }
 
     .imgBox--offer {
         width: 573,6px;
         height: auto;
+    }
+
+    .img--shapeFour {
+        display: none;
     }
 }
 
@@ -110,16 +114,20 @@
         height: 216.3px;
     }
 
-    .imgBox--snowFirst {
+    .imgBox--shadow_1{
         display: none;
     }
     
-    .imgBox--snowSecond {
+    .imgBox--shadow_2 {
         display: none;
     }
 
     .imgBox--offer {
         width: 501,9px;
         height: auto;
+    }
+
+    .img--shapeFour {
+        display: none;
     }
 }
