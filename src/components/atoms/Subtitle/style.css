@@ -37,6 +37,13 @@
     padding-bottom: 34px;
 }
 
+.subtitle_size--description {
+    font-size: 58px;
+    text-transform: none;
+    text-align: center;
+    padding: 371px 0 37px 0;
+}
+
 .subtitle_size--explore {
     font-style: italic;
     font-size: 83px;

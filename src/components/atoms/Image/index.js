@@ -6,13 +6,14 @@ export const ImageBox = {
   LOGO: 'imgBox--logo',
   CARD: 'imgBox--card',
   OFFER: 'imgBox--offer',
-  SNOW_FIRST: 'imgBox--snowFirst',
-  SNOW_SECOND: 'imgBox--snowSecond',
+  LEAF_FIRST: 'imgBox--leafFirst',
+  LEAF_SECOND: 'imgBox--leafSecond',
 };
 
-export const shapePosition = {
+export const ShapePosition = {
   SHAPE_UP: 'img--shapeUp',
   SHAPE_DOWN: 'img--shapeDown',
+  SHAPE_FOUR: 'img--shapeFour',
 };
 
 const Image = (props) => {

@@ -13,6 +13,13 @@
     width: 100%;
 }
 
+.img--shapeFour {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -246px;
+}
+
 /* size image box*/ 
 .imgBox--logo {
     width: 91px;
@@ -32,7 +39,7 @@
     z-index: 1;
 }
 
-.imgBox--snowFirst {
+.imgBox--leafFirst {
     width: 876px;
     height: 512px;
     z-index: 1;
@@ -42,7 +49,7 @@
     opacity: 0.44;
 }
 
-.imgBox--snowSecond {
+.imgBox--leafSecond {
     position: absolute;
     width: 812px;
     height: 579px;

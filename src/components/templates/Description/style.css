@@ -1,0 +1,6 @@
+@import '../../../_settings_/_variables.css';
+
+.wrapper--description{
+    background-color: var(--grey-2);
+    position: relative;
+}

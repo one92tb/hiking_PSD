@@ -42,6 +42,8 @@
     max-width: 895px;
     text-align: center;
     font-size: 29px;
+    margin: 0 auto;
+    padding-bottom: 215px;
 }
 
 .bodyText_size--loremipsum {

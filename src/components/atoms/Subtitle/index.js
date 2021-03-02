@@ -8,6 +8,7 @@ export const SubtitleSize = {
   LETSGO: 'subtitle_size--letsgo',
   CARD: 'subtitle_size--card',
   OFFER: 'subtitle_size--offer',
+  DESCRIPTION: 'subtitle_size--description',
   EXPLORE: 'subtitle_size--explore',
   LOREMIPSUM: 'subtitle_size--loremipsum',
   QUOTATION: 'subtitle_size--quotation',

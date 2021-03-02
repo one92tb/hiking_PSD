@@ -10,6 +10,11 @@
     transition: all 1s ease;
   }
 
+  .button:focus {
+    border: none;
+    outline: none;
+  }
+
   .button:hover {
     cursor: pointer;
     transform: scale(1.02);
