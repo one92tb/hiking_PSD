@@ -24,7 +24,7 @@
     font-size: 29px;
     text-align: left;
     text-transform: none;
-    margin-left: 18px;
+    margin-left: 15px;
     padding: 48.5px 0 18.5px 0;
 }
 
@@ -96,11 +96,31 @@
         font-size: 15px;
         padding: 4.2px 0 30.75px 2px;
     }
+
+    .subtitle_size--letsgo {
+        font-size: 44.1px;
+    }
+
+    .subtitle_size--card {
+        font-size: 20.3px;
+        margin-left: 10px;
+        padding: 29.1px 0 11.1px 0;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .subtitle_size--intro {
         font-size: 17.5px;
         padding: 3.75px 0 36.9px 2px;
+    }
+
+    .subtitle_size--letsgo {
+        font-size: 37.8px;
+    }
+
+    .subtitle_size--card {
+        font-size: 17.4x;
+        margin-left: 10px;
+        padding: 24.25px 0 9.25px 0;
     }
 }

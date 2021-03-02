@@ -62,6 +62,19 @@
     .img--shapeDown {
         display: none;
     }
+
+    .imgBox--card {
+        width: 271.2px;
+        height: 247.2px;
+    }
+
+    .imgBox--snowFirst {
+        display: none;
+    }
+    
+    .imgBox--snowSecond {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -77,5 +90,17 @@
     .img--shapeDown {
         display: none;
     }
+
+    .imgBox--card {
+        width: 237.3px;
+        height: 216.3px;
+    }
+
+    .imgBox--snowFirst {
+        display: none;
+    }
     
+    .imgBox--snowSecond {
+        display: none;
+    }
 }

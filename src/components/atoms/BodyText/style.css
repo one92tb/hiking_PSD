@@ -27,9 +27,8 @@
     max-width: 299px;
     font-size: 23px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 72px;
+    margin-left: 16px;
 }
 
 .bodyText_size--offer {
@@ -118,6 +117,19 @@
         max-width: 300px;
         padding: 12.75px 0 113.25px 0;
     }
+
+    .bodyText_size--letsgo {
+        max-width: 300px;
+        font-size: 18.9px;
+        padding: 14.7px 0 43.5px 0;
+    }
+
+    .bodyText_size--card {
+        max-width: 299px;
+        font-size: 16.1px;
+        padding-bottom: 43.2px;
+        margin-left: 10px;
+    }
   }
   
 
@@ -126,6 +138,19 @@
         font-size: 12.6px;
         max-width: 300px;
         padding: 15.3px 0 135.9px 0;
+    }
+
+    .bodyText_size--letsgo {
+        max-width: 300px;
+        font-size: 16.2px;
+        padding: 22.25px 0 36.25px 0;
+    }
+
+    .bodyText_size--card {
+        max-width: 299px;
+        font-size: 13.8px;
+        padding-bottom: 36px;
+        margin-left: 10px;
     }
 }
 

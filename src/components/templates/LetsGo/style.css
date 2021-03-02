@@ -5,3 +5,16 @@
     padding: 24px 0 182px 0;
     position: relative;
 }
+
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .wrapper--letsGo {
+        padding: 14.4px 0 109.2px 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .wrapper--letsGo {
+        padding: 12px 0 91px 0;
+    }
+}

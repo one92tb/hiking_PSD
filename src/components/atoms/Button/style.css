@@ -81,7 +81,14 @@
       border-radius: 21.8px;
       font-size: 25px;
     }
-}
+
+    .button--large {
+      width: 267.2px;
+      height: 68.8px;
+      font-size: 20.3px;
+      border-radius: 26.72px;
+    }
+  }
 
   @media only screen and (max-width: 320px) {
     .button--small {
@@ -89,5 +96,12 @@
       height: 32.9px;
       border-radius: 15.26px;
       font-size: 15px;
+    }
+
+    .button--large {
+      width: 233.8px;
+      height: 53.2px;
+      font-size: 17.4px;
+      border-radius: 23.38px;
     }
   }

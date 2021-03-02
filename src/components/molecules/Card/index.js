@@ -11,7 +11,7 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <Image width="339" height="309" url={image.file.url} alt="lorem img" size={ImageBox.CARD} />
+      <Image width="100%" height="100%" url={image.file.url} alt="lorem img" size={ImageBox.CARD} />
       <Subtitle size={SubtitleSize.CARD} color={SubtitleColor.WHITE}>{title}</Subtitle>
       <BodyText size={BodyTextSize.CARD} theme={BodyTextTheme.CARD}>
         {text}
