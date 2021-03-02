@@ -1,10 +1,10 @@
 @import '../../../_settings_/_variables.css';
 
-.wrapper--discount{
+.wrapper--discount {
     background-color: var(--creamy-1);
 }
 
-.wrapper--discount:first-child{
+.wrapper--discount:first-child {
     background-color: var(--grey-2);
 }
 
@@ -18,7 +18,7 @@
 }
 
 
-.inner--discount{
+.inner--discount {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -13,8 +13,12 @@ export const NavLinks = {
 };
 
 export const NavPosition = {
-  HORIZONTAL: 'horizontal',
-  VERTICAL: 'vertical',
+  HORIZONTAL: 'nav--horizontal',
+  VERTICAL: 'nav--vertical',
+};
+
+export const NavVisible = {
+  HIDDEN: 'nav--hidden',
 };
 
 const Nav = (props) => {
@@ -23,6 +27,7 @@ const Nav = (props) => {
     linkSize,
     linkTheme,
     position,
+    visible,
     className,
   } = props;
 
@@ -30,6 +35,7 @@ const Nav = (props) => {
     'nav',
     position,
     className,
+    visible,
   );
 
   return (
@@ -48,6 +54,7 @@ Nav.defaultProps = {
   linkSize: 'link--uppercase',
   linkTheme: 'link--dark',
   position: 'horizontal',
+  visible: '',
   className: '',
 };
 
@@ -56,6 +63,7 @@ Nav.propTypes = {
   linkSize: PropTypes.string,
   linkTheme: PropTypes.string,
   position: PropTypes.string,
+  visible: PropTypes.string,
   className: PropTypes.string,
 };
 

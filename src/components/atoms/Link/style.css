@@ -8,20 +8,20 @@
 
 /* size */ 
 
-.link--uppercase{
+.link--uppercase {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.link--normal{
+.link--normal {
     font-size: 24px;
     line-height: 41.76px;
 }
 
 /* theme */
 
-.link--dark{
+.link--dark {
     color: var(--dark-1);
     font-family: 'Open Sans', sans-serif;
 }
@@ -30,8 +30,33 @@
     color: var(--creamy-2);
 }
 
-.link--light{
+.link--light {
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width: 1200px) {
+    .link--uppercase {
+        font-size: 30px;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .link--uppercase:hover{
+        border: 1px solid var(--dark-1);
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .link--uppercase {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .link--uppercase {
+        font-size: 18px;
+    }
+}

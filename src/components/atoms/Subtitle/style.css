@@ -1,6 +1,6 @@
 @import '../../../_settings_/_variables.css';
 
-.subtitle{
+.subtitle {
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
@@ -8,19 +8,19 @@
 }
 
 /* Size */
-.subtitle_size--intro{
+.subtitle_size--intro {
     font-size: 25px;
     font-style: italic;
     padding: 7.5px 0 61.5px 2px;
 }
 
-.subtitle_size--letsgo{
+.subtitle_size--letsgo {
     font-size: 63px;
     text-align: center;
     font-weight: 800;
 }
 
-.subtitle_size--card{
+.subtitle_size--card {
     font-size: 29px;
     text-align: left;
     text-transform: none;
@@ -28,7 +28,7 @@
     padding: 48.5px 0 18.5px 0;
 }
 
-.subtitle_size--offer{
+.subtitle_size--offer {
     font-size: 58px;
     text-align: left;
     max-width: 533px;
@@ -37,29 +37,29 @@
     padding-bottom: 34px;
 }
 
-.subtitle_size--explore{
+.subtitle_size--explore {
     font-style: italic;
     font-size: 83px;
     text-align: right;
 }
 
-.subtitle_size--loremipsum{
+.subtitle_size--loremipsum {
     font-size: 33px;
     line-height: 33.24px;
     text-align: left;
 }
 
-.subtitle_size--quotation{
+.subtitle_size--quotation {
     font-size: 100px;
     text-align: center;
 }
 
-.subtitle_size--subscribe{
+.subtitle_size--subscribe {
     font-size: 75px;
     text-align: center;
 }
 
-.subtitle_size--footer{
+.subtitle_size--footer {
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 400;
@@ -67,26 +67,40 @@
 }
 
 /* color */
-.subtitle--white{
+.subtitle--white {
     color: var(--white);
 }
-.subtitle--dark1{
+.subtitle--dark1 {
     color: var(--dark-1);
 }
 
-.subtitle--dark2{
+.subtitle--dark2 {
     color: var(--dark-2);
 }
 
-.subtitle--creamy1{
+.subtitle--creamy1 {
     color: var(--creamy-1);
 }
 
-.subtitle--creamy2{
+.subtitle--creamy2 {
     color: var(--creamy-2);
 }
 
 /* shadow */
-.subtitle--shadow{
+.subtitle--shadow {
     text-shadow: 3px -4px 5px var(--dark-1);
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .subtitle_size--intro {
+        font-size: 15px;
+        padding: 4.2px 0 30.75px 2px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .subtitle_size--intro {
+        font-size: 17.5px;
+        padding: 3.75px 0 36.9px 2px;
+    }
 }

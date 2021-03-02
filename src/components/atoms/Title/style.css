@@ -1,6 +1,6 @@
 @import '../../../_settings_/_variables.css';
 
-.title{
+.title {
   text-shadow: 3px -4px 5px var(--dark-1);
   color: var(--creamy-2);
   font-family: 'Open Sans', sans-serif;
@@ -11,4 +11,16 @@
   margin: 0;
   line-height: 1.2;
   padding-left: 4px;
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+  .title {
+    font-size: 64.4px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .title {
+      font-size: 55.2px;
+  }
 }

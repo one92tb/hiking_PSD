@@ -1,4 +1,19 @@
-.jumbotron{
+.jumbotron {
     padding-top: 200px;
     padding-left: 89px;
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .jumbotron {
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .jumbotron {
+        padding-top: 100px;
+        padding-left: 10px;
+    }
 }

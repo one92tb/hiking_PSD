@@ -1,15 +1,57 @@
+@import '../../../_settings_/_variables.css';
 /* size */
-.nav{
+.nav {
     display: flex;
     z-index: 1;
 }
-.horizontal{
+.nav--horizontal {
     width: 794px;
     justify-content: space-between;
     align-items: center;
+    transition: all 1s ease;
 }
 
-.vertical{
+.nav--vertical {
    flex-direction: column;
    width: 205px;
+}
+
+.nav--hidden {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+   .nav--horizontal {
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        background: var(--white);
+        left: 0;
+        top: 154px;
+        flex-direction: column;
+        text-align: center;
+        max-height: 400px;
+   }
+
+   .nav--horizontal input {
+        display: none;
+   }
+
+   .nav--hidden {
+        opacity: 0;
+        max-height: 0;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .nav--horizontal {
+        top: 92.4px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .nav--horizontal {
+        top: 77px;
+    }
 }

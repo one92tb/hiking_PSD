@@ -1,12 +1,12 @@
 /* position */
-.img--shapeUp{
+.img--shapeUp {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.img--shapeDown{
+.img--shapeDown {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -14,25 +14,25 @@
 }
 
 /* size image box*/ 
-.imgBox--logo{
+.imgBox--logo {
     width: 91px;
     height: 94px;
     z-index: 1;
 }
 
-.imgBox--card{
+.imgBox--card {
     width: 339px;
     height: 309px;
     z-index: 1;
 }
 
-.imgBox--offer{
+.imgBox--offer {
     width: 717px;
     height: 780px;
     z-index: 1;
 }
 
-.imgBox--snowFirst{
+.imgBox--snowFirst {
     width: 876px;
     height: 512px;
     z-index: 1;
@@ -42,9 +42,40 @@
     opacity: 0.44;
 }
 
-.imgBox--snowSecond{
+.imgBox--snowSecond {
     position: absolute;
     width: 812px;
     height: 579px;
     z-index: 1;
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .imgBox--logo {
+        width: 72.8px;
+        height: 75.2px
+    }
+
+    .img--shapeUp {
+        display: none;
+    }
+    
+    .img--shapeDown {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .imgBox--logo {
+        width: 63.7px;
+        height: 65.8px
+    }
+
+    .img--shapeUp {
+        display: none;
+    }
+    
+    .img--shapeDown {
+        display: none;
+    }
+    
 }

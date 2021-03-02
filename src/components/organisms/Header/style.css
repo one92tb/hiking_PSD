@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     padding-left: 132px;
     padding-right: 80px;
@@ -6,3 +6,25 @@
     height: 154px;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .header{
+        padding: 0 20px;
+        height: 92.4px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header {
+        padding: 0 10px;
+        height: 77px;
+    }
+}
+

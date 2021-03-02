@@ -1,6 +1,6 @@
 @import '../../../_settings_/_variables.css';
 
-.card{
+.card {
     background-color: var(--grey-2);
     width: 339px;
 }
