@@ -126,6 +126,12 @@
         text-align: center;
         padding: 96.6px 10px 22.2px 10px;
     }
+
+    .subtitle_size--explore {
+        font-size: 58.1px;
+        text-align: center;
+    }
+    
 }
 
 @media only screen and (max-width: 320px) {
@@ -156,5 +162,10 @@
         text-transform: none;
         text-align: center;
         padding: 80.5px 10px 18.5px 10px;
+    }
+
+    .subtitle_size--explore {
+        font-size: 49.8px;
+        text-align: center;
     }
 }

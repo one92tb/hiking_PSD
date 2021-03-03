@@ -101,6 +101,10 @@
     .img--shapeFour {
         display: none;
     }
+
+    .img--shapeFive {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -136,6 +140,10 @@
     }
 
     .img--shapeFour {
+        display: none;
+    }
+
+    .img--shapeFive {
         display: none;
     }
 }
