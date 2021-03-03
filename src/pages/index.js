@@ -4,6 +4,7 @@ import Intro from './Intro/index';
 import LetsGo from './LetsGo/index';
 import Offer from './Offer/index';
 import Description from './Description/index';
+import Explore from './Explore/index';
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <LetsGo />
     <Offer />
     <Description />
+    <Explore />
   </Layout>
 );
 

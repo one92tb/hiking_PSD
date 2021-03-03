@@ -15,6 +15,7 @@ export const ShapePosition = {
   SHAPE_UP: 'img--shapeUp',
   SHAPE_DOWN: 'img--shapeDown',
   SHAPE_FOUR: 'img--shapeFour',
+  SHAPE_FIVE: 'img--shapeFive',
 };
 
 const Image = (props) => {

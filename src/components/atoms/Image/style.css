@@ -18,6 +18,14 @@
     left: 0;
     width: 100%;
     bottom: -246px;
+    z-index: 1;
+}
+
+.img--shapeFive {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -48px;
 }
 
 /* size image box*/ 
