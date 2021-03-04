@@ -80,38 +80,19 @@
         height: 75.2px
     }
 
-    .img--shapeUp {
+    .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
+    .img--shapeFour, .img--shapeFive, .imgBox--shadow_3  {
         display: none;
     }
     
-    .img--shapeDown {
-        display: none;
-    }
-
     .imgBox--card {
         width: 271.2px;
         height: 247.2px;
     }
 
-    .imgBox--shadow_1 {
-        display: none;
-    }
-    
-    .imgBox--shadow_2 {
-        display: none;
-    }
-
     .imgBox--offer {
         width: 573,6px;
         height: auto;
-    }
-
-    .img--shapeFour {
-        display: none;
-    }
-
-    .img--shapeFive {
-        display: none;
     }
 }
 
@@ -121,37 +102,18 @@
         height: 55px
     }
 
-    .img--shapeUp {
-        display: none;
-    }
-    
-    .img--shapeDown {
-        display: none;
-    }
-
     .imgBox--card {
         width: 237.3px;
         height: 216.3px;
-    }
-
-    .imgBox--shadow_1{
-        display: none;
-    }
-    
-    .imgBox--shadow_2 {
-        display: none;
     }
 
     .imgBox--offer {
         width: 501,9px;
         height: auto;
     }
-
-    .img--shapeFour {
-        display: none;
-    }
-
-    .img--shapeFive {
+    
+    .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
+    .img--shapeFour, .img--shapeFive, .imgBox--shadow_3  {
         display: none;
     }
 }

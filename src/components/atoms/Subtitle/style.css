@@ -62,7 +62,7 @@
     text-transform: uppercase;
     font-style: italic;
     transform: rotate(-180deg);
-    padding-bottom: 174px;
+    padding-bottom: 154px;
 }
 
 .subtitle_size--subscribe {
@@ -137,6 +137,16 @@
         font-size: 58.1px;
         text-align: center;
     }
+
+    .subtitle_size--loremipsum {
+        font-size: 23.1px;
+        padding-bottom: 16.5px;
+    }
+    
+    .subtitle_size--quotation {
+        font-size: 70px;
+        padding-bottom: 107.8px;
+    }
     
 }
 
@@ -173,5 +183,16 @@
     .subtitle_size--explore {
         font-size: 49.8px;
         text-align: center;
+    }
+
+    .subtitle_size--loremipsum {
+        font-size: 19.8px;
+        padding-bottom: 13.75px;
+        text-align: center;
+    }
+    
+    .subtitle_size--quotation {
+        font-size: 60px;
+        padding-bottom: 77px;
     }
 }

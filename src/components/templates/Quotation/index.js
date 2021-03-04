@@ -15,14 +15,14 @@ const QuotationTemplate = (props) => {
       <div className="inner--quotation">
         <Opinions edges={edges} />
         <Quote author={author} quotation={quotation} />
+        <Image
+          width="812"
+          height="579"
+          size={ImageBox.SHADOW_THIRD}
+          url={Shadow3}
+          alt="shadow"
+        />
       </div>
-      <Image
-        width="812"
-        height="579"
-        position={ImageBox.SHADOW_THIRD}
-        url={Shadow3}
-        alt="shadow"
-      />
     </section>
   );
 };

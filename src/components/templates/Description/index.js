@@ -20,21 +20,28 @@ const DescriptionTemplate = (props) => {
         url={Shape3}
         alt="shape"
       />
-      <Subtitle size={SubtitleSize.DESCRIPTION} color={SubtitleColor.WHITE}>{title}</Subtitle>
-      <BodyText size={BodyTextSize.DESCRIPTION} theme={BodyTextTheme.DESCRIPTION}>{text}</BodyText>
+      <div className="inner--description">
+        <Subtitle size={SubtitleSize.DESCRIPTION} color={SubtitleColor.WHITE}>{title}</Subtitle>
+        <BodyText
+          size={BodyTextSize.DESCRIPTION}
+          theme={BodyTextTheme.DESCRIPTION}
+        >
+          {text}
+        </BodyText>
+        <Image
+          width="876"
+          height="512"
+          position={ImageBox.SHADOW_SECOND}
+          url={Shadow2}
+          alt="shadow"
+        />
+      </div>
       <Image
         width="100%"
         height="315"
         position={ShapePosition.SHAPE_FOUR}
         url={Shape4}
         alt="shape"
-      />
-      <Image
-        width="876"
-        height="512"
-        position={ImageBox.SHADOW_SECOND}
-        url={Shadow2}
-        alt="shadow"
       />
     </section>
   );

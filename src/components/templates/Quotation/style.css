@@ -1,11 +1,26 @@
 .wrapper--quotation{
-    position: relative;
+    overflow-x: hidden;
 }
 
 .inner--quotation{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding: 69.5px 160px 0 160px;
+    padding: 0 160px;
+    margin-top: 69.5px;
+    position: relative;
 }
 
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .inner--quotation{
+        padding: 0 10px;
+        margin-top: 41.7px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .inner--quotation{
+        padding: 0 10px;
+        margin-top: 34.75px;
+    }
+}

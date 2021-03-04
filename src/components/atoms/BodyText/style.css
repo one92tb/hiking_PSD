@@ -154,6 +154,23 @@
         font-size: 20.3px;
         padding: 0 10px 87.6px 10px;
     }
+
+    .bodyText_size--loremipsum {
+        max-width: 300px;
+        font-size: 13.3px;
+        line-height: 17.45px;
+    }
+    
+    .bodyText_size--quotation {
+        font-size: 25px;
+        max-width: 792px;
+        padding: 18.6px 0 37.1px 0;
+    }
+    
+    .bodyText_size--quotation-author{
+        font-size: 14.7px;
+        padding-bottom: 58.8px;
+    }
   }
   
 
@@ -187,6 +204,24 @@
         max-width: 300px;
         font-size: 17.4px;
         padding: 0 10px 73px 10px;
+    }
+
+    .bodyText_size--loremipsum {
+        max-width: 300px;
+        font-size: 11.4px;
+        line-height: 14.96px;
+        text-align: center;
+    }
+    
+    .bodyText_size--quotation {
+        font-size: 17.5px;
+        max-width: 300px;
+        padding: 15.5px 5px 26.5px 5px;
+    }
+    
+    .bodyText_size--quotation-author{
+        font-size: 12.6px;
+        padding-bottom: 49px;
     }
 }
 
