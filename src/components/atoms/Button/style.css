@@ -32,8 +32,8 @@
   }
 
   .button--medium {
-    width: 222px;
-    height: 65px;
+    width: 223px;
+    height: 66px;
     line-height: normal;
     font-weight: 700;
     font-size: 25px;
@@ -74,9 +74,15 @@
 
   /* position */
 
-  .button--center {
+  .button--letsGoPosition {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .button--subscribePosition {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
   }
 
   @media only screen and (min-width:321px) and (max-width: 768px) {
@@ -92,6 +98,7 @@
       height: 68.8px;
       font-size: 20.3px;
       border-radius: 26.72px;
+      margin: 0 auto;
     }
   }
 
@@ -108,5 +115,6 @@
       height: 53.2px;
       font-size: 17.4px;
       border-radius: 23.38px;
+      margin: 0 auto;
     }
   }

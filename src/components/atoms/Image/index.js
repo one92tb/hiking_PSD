@@ -12,10 +12,13 @@ export const ImageBox = {
 };
 
 export const ShapePosition = {
-  SHAPE_UP: 'img--shapeUp',
-  SHAPE_DOWN: 'img--shapeDown',
+  SHAPE_ONE: 'img--shapeOne',
+  SHAPE_TWO: 'img--shapeTwo',
+  SHAPE_THREE: 'img--shapeThree',
   SHAPE_FOUR: 'img--shapeFour',
   SHAPE_FIVE: 'img--shapeFive',
+  SHAPE_SIX: 'img--shapeSix',
+  SHAPE_SEVEN: 'img--shapeSeven',
 };
 
 const Image = (props) => {

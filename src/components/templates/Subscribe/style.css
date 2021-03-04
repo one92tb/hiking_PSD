@@ -1,0 +1,13 @@
+@import '../../../_settings_/_variables.css';
+
+.wrapper--subscribe {
+    background: var(--creamy-1);
+    position: relative;
+}
+
+.inner-subscribe{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 217px 0 231px 0;
+}

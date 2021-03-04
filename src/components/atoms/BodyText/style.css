@@ -68,12 +68,15 @@
     text-align: center;
     font-weight: 700;
     padding-bottom: 98px;
+    z-index: 2;
 }
 
 .bodyText_size--subscribe {
     max-width: 890px;
     font-size: 30px;
     text-align: center;
+    margin: 0 auto;
+    padding: 52px 0 79px 0;
 }
 
 .bodyText_size--footer {
@@ -82,45 +85,33 @@
     text-align: left;
 }
 
-/* theme */
-
-.bodyText_theme--intro{
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+/* color */
+.bodyText--white {
+    color: var(--white);
+}
+.bodyText--dark1 {
     color: var(--dark-1);
 }
 
-.bodyText_theme--letsgo{
-    color: var(--grey-2);
+.bodyText--dark2 {
+    color: var(--dark-2);
 }
 
-.bodyText_theme--card{
-    color: var(--white);
-}
-
-.bodyText_theme--offer {
-    color: var(--white);
-}
-
-.bodyText_theme--description {
-    color: var(--grey-1);
-}
-
-.bodyText_theme--loremipsum {
+.bodyText--dark3 {
     color: var(--dark-3);
 }
 
-.bodyText_theme--quotation {
-    color: var(--dark-2)
+.bodyText--grey1 {
+    color: var(--grey-1);
 }
 
-.bodyText_theme--subscribe {
-    color: var(--dark-1);
+.bodyText--grey2 {
+    color: var(--grey-2);
 }
 
-.bodyText_theme--footer {
-    font-family: 'Montserrat';
-    color: var(--white);
+/* italic */ 
+.bodyText--italic {
+    font-style: italic;
 }
 
 @media only screen and (min-width:321px) and (max-width: 768px) {
@@ -147,6 +138,8 @@
         max-width: 550px;
         font-size: 23.1px;
         padding-bottom: 26.1px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .bodyText_size--description {
@@ -198,6 +191,8 @@
         max-width: 300px;
         font-size: 19.8px;
         padding-bottom: 26.1px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .bodyText_size--description {

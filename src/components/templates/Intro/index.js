@@ -12,10 +12,10 @@ const IntroTemplate = (props) => {
   return (
     <section className="wrapper--intro">
       <div className="inner">
-        <Image width="100%" height="196" position={ShapePosition.SHAPE_UP} url={Shape1} />
+        <Image width="100%" height="196" position={ShapePosition.SHAPE_ONE} url={Shape1} />
         <Header />
         <Jumbotron text={bodyText} />
-        <Image width="100%" height="147" position={ShapePosition.SHAPE_DOWN} url={Shape2} />
+        <Image width="100%" height="147" position={ShapePosition.SHAPE_TWO} url={Shape2} />
       </div>
     </section>
   );

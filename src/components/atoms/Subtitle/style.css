@@ -68,7 +68,6 @@
 .subtitle_size--subscribe {
     font-size: 75px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .subtitle_size--footer {
@@ -124,6 +123,8 @@
         font-size: 40.6px;
         padding-top: 97.5px;
         padding-bottom: 20.4px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .subtitle_size--description {
@@ -171,6 +172,8 @@
         max-width: 300px;
         padding-top: 81.25px;
         padding-bottom: 17px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .subtitle_size--description {

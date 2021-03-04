@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Subtitle, { SubtitleColor, SubtitleSize } from '../../atoms/Subtitle/index';
-import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/index';
+import BodyText, { BodyTextSize, BodyTextColor } from '../../atoms/BodyText/index';
 import './style.css';
 
 const Opinion = (props) => {
@@ -10,7 +10,7 @@ const Opinion = (props) => {
   return (
     <div className="opinion">
       <Subtitle size={SubtitleSize.LOREMIPSUM} color={SubtitleColor.CREAMY_1}>{title}</Subtitle>
-      <BodyText size={BodyTextSize.LOREMIPSUM} theme={BodyTextTheme.LOREMIPSUM}>{text}</BodyText>
+      <BodyText size={BodyTextSize.LOREMIPSUM} color={BodyTextColor.DARK_3}>{text}</BodyText>
     </div>
   );
 };

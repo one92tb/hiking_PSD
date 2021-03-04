@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 import Subtitle, { SubtitleColor, SubtitleSize } from '../../atoms/Subtitle/index';
-import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/index';
+import BodyText, { BodyTextSize, BodyTextColor } from '../../atoms/BodyText/index';
 import Cards from '../../organisms/Cards/index';
 import Button, { ButtonSize, ButtonTheme, ButtonPosition } from '../../atoms/Button/index';
 import Image, { ImageBox } from '../../atoms/Image/index';
@@ -18,12 +18,12 @@ const LetsGoTemplate = (props) => {
       <Subtitle size={SubtitleSize.LETSGO} color={SubtitleColor.CREAMY_2}>
         {title}
       </Subtitle>
-      <BodyText size={BodyTextSize.LETSGO} theme={BodyTextTheme.LETSGO}>{bodyText}</BodyText>
+      <BodyText size={BodyTextSize.LETSGO} color={BodyTextColor.GREY_2}>{bodyText}</BodyText>
       <Cards edges={edges} />
       <Button
         size={ButtonSize.LARGE}
         theme={ButtonTheme.GREY}
-        position={ButtonPosition.CENTER}
+        position={ButtonPosition.LETSGO}
       >
         show more
       </Button>

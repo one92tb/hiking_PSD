@@ -1,12 +1,12 @@
 /* position */
-.img--shapeUp {
+.img--shapeOne, .img--shapeThree {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.img--shapeDown {
+.img--shapeTwo {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -26,6 +26,16 @@
     width: 100%;
     left: 0;
     bottom: -48px;
+}
+
+.img--shapeSix {
+    position: absolute;
+    top: -43px;
+}
+
+.img--shapeSeven {
+    position: absolute;
+    bottom: -94px;
 }
 
 /* size image box*/ 
@@ -72,6 +82,7 @@
     height: 579px;
     right: -253px;
     bottom: -73px;
+    z-index: 1;
 }
 
 @media only screen and (min-width:321px) and (max-width: 768px) {

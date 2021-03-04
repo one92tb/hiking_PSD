@@ -6,6 +6,7 @@ import Offer from './Offer/index';
 import Description from './Description/index';
 import Explore from './Explore/index';
 import Quotation from './Quotation/index';
+import Subscribe from './Subscribe/index';
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Description />
     <Explore />
     <Quotation />
+    <Subscribe />
   </Layout>
 );
 

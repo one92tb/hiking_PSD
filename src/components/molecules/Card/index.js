@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Subtitle, { SubtitleColor, SubtitleSize } from '../../atoms/Subtitle/index';
-import BodyText, { BodyTextSize, BodyTextTheme } from '../../atoms/BodyText/index';
+import BodyText, { BodyTextSize, BodyTextColor } from '../../atoms/BodyText/index';
 import Image, { ImageBox } from '../../atoms/Image/index';
 import './style.css';
 
@@ -13,7 +13,7 @@ const Card = (props) => {
     <div className="card">
       <Image width="100%" height="100%" url={image.file.url} alt="lorem img" size={ImageBox.CARD} />
       <Subtitle size={SubtitleSize.CARD} color={SubtitleColor.WHITE}>{title}</Subtitle>
-      <BodyText size={BodyTextSize.CARD} theme={BodyTextTheme.CARD}>
+      <BodyText size={BodyTextSize.CARD} color={BodyTextColor.WHITE}>
         {text}
       </BodyText>
     </div>

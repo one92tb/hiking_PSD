@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Title from '../../atoms/Title/index';
 import Subtitle, { SubtitleSize, SubtitleColor } from '../../atoms/Subtitle/index';
 import Button, { ButtonSize, ButtonTheme } from '../../atoms/Button/index';
-import BodyText, { BodyTextTheme, BodyTextSize } from '../../atoms/BodyText/index';
+import BodyText, { BodyTextColor, BodyTextItalic, BodyTextSize } from '../../atoms/BodyText/index';
 import './style.css';
 
 const Jumbotron = (props) => {
@@ -18,8 +18,9 @@ const Jumbotron = (props) => {
       <Subtitle size={SubtitleSize.INTRO} color={SubtitleColor.DARK_1}>loremipsum dolor</Subtitle>
       <Button size={ButtonSize.SMALL} theme={ButtonTheme.LIGHT}>read more</Button>
       <BodyText
-        bodyTextTheme={BodyTextTheme.INTRO}
-        bodyTextSize={BodyTextSize.INTRO}
+        color={BodyTextColor.DARK_1}
+        size={BodyTextSize.INTRO}
+        italic={BodyTextItalic.ITALIC}
       >
         {text}
       </BodyText>

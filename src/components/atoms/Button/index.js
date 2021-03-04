@@ -22,7 +22,8 @@ export const ButtonSize = {
 };
 
 export const ButtonPosition = {
-  CENTER: 'button--center',
+  LETSGO: 'button--letsGoPosition',
+  SUBSCRIBE: 'button--subscribePosition',
 };
 
 const Button = (props) => {
@@ -45,7 +46,7 @@ const Button = (props) => {
 
 Button.defaultProps = {
   type: ButtonType.BUTTON,
-  theme: ButtonTheme.LIGHT,
+  theme: ButtonTheme.GREY,
   size: ButtonSize.SMALL,
   onClick: () => {},
   className: '',

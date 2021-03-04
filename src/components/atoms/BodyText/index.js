@@ -16,47 +16,52 @@ export const BodyTextSize = {
   FOOTER: 'bodyText_size--footer',
 };
 
-export const BodyTextTheme = {
-  INTRO: 'bodyText_theme--intro',
-  LETSGO: 'bodyText_theme--letsgo',
-  CARD: 'bodyText_theme--card',
-  OFFER: 'bodyText_theme--offer',
-  DESCRIPTION: 'bodyText_theme--description',
-  LOREMIPSUM: 'bodyText_theme--loremipsum',
-  QUOTATION: 'bodyText_theme--quotation',
-  SUBSCRIBE: 'bodyText_theme--subscribe',
-  FOOTER: 'bodyText_theme--footer',
+export const BodyTextColor = {
+  WHITE: 'bodyText--white',
+  DARK_1: 'bodyText--dark1',
+  DARK_2: 'bodyText--dark2',
+  DARK_3: 'bodyText--dark3',
+  GREY_1: 'bodyText--grey1',
+  GREY_2: 'bodyText--grey2',
+};
+
+export const BodyTextItalic = {
+  ITALIC: 'bodyText--italic',
 };
 
 const BodyText = (props) => {
   const {
     children,
-    theme,
+    color,
     size,
+    italic,
     className,
   } = props;
 
   const classProps = classnames(
     'bodyText',
-    theme,
+    color,
     size,
+    italic,
     className,
   );
 
   return (
-    <p size={size} theme={theme} className={classProps}>{children}</p>
+    <p size={size} color={color} className={classProps}>{children}</p>
   );
 };
 
 BodyText.defaultProps = {
   size: BodyTextSize.INTRO,
-  theme: BodyTextTheme.INTRO,
+  color: BodyTextColor.WHITE,
+  italic: '',
   className: '',
 };
 
 BodyText.propTypes = {
-  theme: PropTypes.string,
+  color: PropTypes.string,
   size: PropTypes.string,
+  italic: PropTypes.string,
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
