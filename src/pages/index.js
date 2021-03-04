@@ -7,6 +7,7 @@ import Description from './Description/index';
 import Explore from './Explore/index';
 import Quotation from './Quotation/index';
 import Subscribe from './Subscribe/index';
+import Footer from './Footer/index';
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Explore />
     <Quotation />
     <Subscribe />
+    <Footer />
   </Layout>
 );
 

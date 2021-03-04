@@ -148,6 +148,10 @@
         font-size: 70px;
         padding-bottom: 107.8px;
     }
+
+    .subtitle_size--subscribe {
+        font-size: 52.5px;
+    }
     
 }
 
@@ -197,5 +201,9 @@
     .subtitle_size--quotation {
         font-size: 60px;
         padding-bottom: 77px;
+    }
+
+    .subtitle_size--subscribe {
+        font-size: 45px;
     }
 }

@@ -92,7 +92,8 @@
     }
 
     .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
-    .img--shapeFour, .img--shapeFive, .imgBox--shadow_3  {
+    .img--shapeFour, .img--shapeFive, .img--shapeSix, .img--shapeSeven,
+    .imgBox--shadow_3 {
         display: none;
     }
     
@@ -124,7 +125,8 @@
     }
     
     .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
-    .img--shapeFour, .img--shapeFive, .imgBox--shadow_3  {
+    .img--shapeFour, .img--shapeFive, .img--shapeSix, .img--shapeSeven, 
+    .imgBox--shadow_3 {
         display: none;
     }
 }

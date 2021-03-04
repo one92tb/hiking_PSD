@@ -40,19 +40,6 @@ const SubscribeTemplate = (props) => {
 export default SubscribeTemplate;
 
 SubscribeTemplate.defaultProps = {
-  data: PropTypes.shape({
-    allContentfulHikingSubscribe: PropTypes.shape({
-      edges: PropTypes.arrayOf(PropTypes.shape({
-        node: PropTypes.shape({
-          title: PropTypes.string,
-          text: PropTypes.string,
-        }),
-      })),
-    }),
-  }),
-};
-
-SubscribeTemplate.propTypes = {
   data: {
     allContentfulHikingSubscribe: {
       edges: [{
@@ -63,4 +50,17 @@ SubscribeTemplate.propTypes = {
       }],
     },
   },
+};
+
+SubscribeTemplate.propTypes = {
+  data: PropTypes.shape({
+    allContentfulHikingSubscribe: PropTypes.shape({
+      edges: PropTypes.arrayOf(PropTypes.shape({
+        node: PropTypes.shape({
+          title: PropTypes.string,
+          text: PropTypes.string,
+        }),
+      })),
+    }),
+  }),
 };

@@ -1,5 +1,5 @@
 .wrapper--explore {
-    background: url("../../../images/explore_bg.jpg") no-repeat, linear-gradient(to top, rgba(52, 52, 52, 0.7) 0%, rgba(67, 64, 55, 0.47) 100%);
+    background: url("../../images/explore_bg.jpg") no-repeat, linear-gradient(to top, rgba(52, 52, 52, 0.7) 0%, rgba(67, 64, 55, 0.47) 100%);
     background-size: cover;
     background-blend-mode: screen;
     position: relative;
