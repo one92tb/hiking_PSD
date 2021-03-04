@@ -1,7 +1,6 @@
 @import '../../../_settings_/_variables.css';
 
 .subtitle {
-    text-transform: uppercase;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -12,18 +11,19 @@
     font-size: 25px;
     font-style: italic;
     padding: 7.5px 0 61.5px 2px;
+    text-transform: uppercase;
 }
 
 .subtitle_size--letsgo {
     font-size: 63px;
     text-align: center;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .subtitle_size--card {
     font-size: 29px;
     text-align: left;
-    text-transform: none;
     margin-left: 15px;
     padding: 48.5px 0 18.5px 0;
 }
@@ -32,14 +32,12 @@
     font-size: 58px;
     text-align: left;
     max-width: 533px;
-    text-transform: none;
     padding-top: 162.5px;
     padding-bottom: 34px;
 }
 
 .subtitle_size--description {
     font-size: 58px;
-    text-transform: none;
     text-align: center;
     padding: 371px 0 37px 0;
 }
@@ -48,22 +46,29 @@
     font-style: italic;
     font-size: 83px;
     text-align: right;
+    text-transform: uppercase;
 }
 
 .subtitle_size--loremipsum {
     font-size: 33px;
     line-height: 33.24px;
     text-align: left;
+    padding-bottom: 27.5px;
 }
 
 .subtitle_size--quotation {
     font-size: 100px;
     text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    transform: rotate(-180deg);
+    padding-bottom: 174px;
 }
 
 .subtitle_size--subscribe {
     font-size: 75px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .subtitle_size--footer {
@@ -71,6 +76,7 @@
     font-size: 32px;
     font-weight: 400;
     text-align: left;
+    text-transform: uppercase;
 }
 
 /* color */

@@ -66,6 +66,14 @@
     left: -327px;
 }
 
+.imgBox--shadow_3 {
+    position: absolute;
+    width: 812px;
+    height: 579px;
+    right: -253px;
+    bottom: -73px;
+}
+
 @media only screen and (min-width:321px) and (max-width: 768px) {
     .imgBox--logo {
         width: 72.8px;

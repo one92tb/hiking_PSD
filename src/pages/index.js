@@ -5,6 +5,7 @@ import LetsGo from './LetsGo/index';
 import Offer from './Offer/index';
 import Description from './Description/index';
 import Explore from './Explore/index';
+import Quotation from './Quotation/index';
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Offer />
     <Description />
     <Explore />
+    <Quotation />
   </Layout>
 );
 

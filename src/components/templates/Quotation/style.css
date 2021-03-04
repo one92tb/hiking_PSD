@@ -1,0 +1,11 @@
+.wrapper--quotation{
+    position: relative;
+}
+
+.inner--quotation{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 69.5px 160px 0 160px;
+}
+

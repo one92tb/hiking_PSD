@@ -59,6 +59,15 @@
     max-width: 792px;
     text-align: center;
     font-weight: 600;
+    margin: 0 auto;
+    padding: 31px 0 53px 0;
+}
+
+.bodyText_size--quotation-author{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 98px;
 }
 
 .bodyText_size--subscribe {

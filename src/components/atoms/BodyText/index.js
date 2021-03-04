@@ -11,6 +11,7 @@ export const BodyTextSize = {
   DESCRIPTION: 'bodyText_size--description',
   LOREMIPSUM: 'bodyText_size--loremipsum',
   QUOTATION: 'bodyText_size--quotation',
+  QUOTATION_AUTHOR: 'bodyText_size--quotation-author',
   SUBSCRIBE: 'bodyText_size--subscribe',
   FOOTER: 'bodyText_size--footer',
 };
