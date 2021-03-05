@@ -1,20 +1,20 @@
 @import '../../../_settings_/_variables.css';
 
 .icon {
-    font-size: 25px;
+    font-size: 25px!important;
     color: var(--grey-2);
     cursor: pointer;
 }
 
 @media only screen and (min-width:321px) and (max-width: 768px) {
     .icon {
-        font-size: 17.5px;
+        font-size: 17.5px!important;
     }
 }
 
 
 @media only screen and (max-width: 320px) {
     .icon {
-        font-size: 15px;
+        font-size: 15px!important;
     }
 }
