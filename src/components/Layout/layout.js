@@ -4,7 +4,7 @@ import './style.css';
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: '0' }}>
+    <div style={{ margin: '0', overflowX: 'hidden' }}>
       {children}
     </div>
   );

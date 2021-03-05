@@ -6,7 +6,7 @@ export const ImageBox = {
   LOGO: 'imgBox--logo',
   CARD: 'imgBox--card',
   OFFER: 'imgBox--offer',
-  SHODOW_FIRST: 'imgBox--shadow_1',
+  SHADOW_FIRST: 'imgBox--shadow_1',
   SHADOW_SECOND: 'imgBox--shadow_2',
   SHADOW_THIRD: 'imgBox--shadow_3',
 };

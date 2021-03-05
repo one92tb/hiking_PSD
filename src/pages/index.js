@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Layout from '../components/Layout/layout';
+import Layout from '../components/layout/layout';
 import Intro from './Intro/index';
 import LetsGo from './LetsGo/index';
 import Offer from './Offer/index';

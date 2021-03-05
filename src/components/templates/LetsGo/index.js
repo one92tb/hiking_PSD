@@ -28,7 +28,7 @@ const LetsGoTemplate = (props) => {
         show more
       </Button>
       <Image
-        size={ImageBox.SHODOW_FIRST}
+        size={ImageBox.SHADOW_FIRST}
         alt="shadowFirst"
         url={shadowFirst}
         width="876"
