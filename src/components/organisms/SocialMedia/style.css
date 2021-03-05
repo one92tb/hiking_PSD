@@ -1,0 +1,9 @@
+.socialMedia{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 320px) {
+    .socialMedia {
+        margin: 0 auto;
+    }
+}

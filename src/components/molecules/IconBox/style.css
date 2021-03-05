@@ -1,0 +1,26 @@
+@import '../../../_settings_/_variables.css';
+
+.iconBox{
+    width: 42px;
+    height: 42px;
+    background: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .iconBox {
+        width: 33.6px;
+        height: 33.6px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .iconBox {
+        width: 29.4px;
+        height: 29.4px;
+    }
+}

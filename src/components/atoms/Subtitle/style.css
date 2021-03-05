@@ -71,11 +71,10 @@
 }
 
 .subtitle_size--footer {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 400;
     text-align: left;
-    text-transform: uppercase;
 }
 
 /* color */
@@ -152,6 +151,10 @@
     .subtitle_size--subscribe {
         font-size: 52.5px;
     }
+
+    .subtitle_size--footer {
+        font-size: 22.4px;
+    }
     
 }
 
@@ -205,5 +208,10 @@
 
     .subtitle_size--subscribe {
         font-size: 45px;
+    }
+
+    .subtitle_size--footer {
+        font-size: 19.2px;
+        text-align: center;
     }
 }

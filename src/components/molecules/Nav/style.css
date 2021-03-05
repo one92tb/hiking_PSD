@@ -13,7 +13,7 @@
 
 .nav--vertical {
    flex-direction: column;
-   width: 205px;
+   padding-top: 12.5px;
 }
 
 .nav--hidden {
@@ -47,11 +47,19 @@
     .nav--horizontal {
         top: 92.4px;
     }
+
+    .nav--vertical {
+        margin: 0 auto;
+    }
 }
 
 
 @media only screen and (max-width: 320px) {
     .nav--horizontal {
         top: 77px;
+    }
+
+    .nav--vertical {
+        margin: 0 auto;
     }
 }

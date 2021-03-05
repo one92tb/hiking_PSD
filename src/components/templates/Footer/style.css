@@ -1,0 +1,28 @@
+@import '../../../_settings_/_variables.css';
+
+.wrapper--footer {
+    background-color: var(--grey-2);
+}
+
+.inner--footer {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 241px 90px 302.5px 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .inner--footer {
+        padding: 88.1px 20px 181.5px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .inner--footer {
+        padding: 74.5px 10px 161.25px 10px;
+    }
+}

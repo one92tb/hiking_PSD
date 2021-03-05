@@ -9,7 +9,7 @@ export const NavLinks = {
   INTRO: ['home', 'menu', 'our story', 'contact us'],
   ABOUT: ['History', 'Our Team', 'Brand Guidelines', 'Terms& Condition', 'Privacy Policy'],
   SERVICES: ['How to Order', 'Our Product', 'Order Status', 'Promo', 'Payment Method'],
-  Other: ['Contact Us', 'Help', 'Privacy'],
+  OTHER: ['Contact Us', 'Help', 'Privacy'],
 };
 
 export const NavPosition = {
@@ -43,7 +43,7 @@ const Nav = (props) => {
       {links.map((link) => (
         <Link key={link} size={linkSize} theme={linkTheme}>{link}</Link>
       ))}
-      {NavLinks.INTRO.length === links.length
+      {links[0] === 'home'
         && <Input size={InputSize.SMALL} color={InputColor.DARK} type="text" />}
     </nav>
   );

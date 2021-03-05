@@ -53,10 +53,22 @@
     .link--uppercase {
         font-size: 21px;
     }
+
+    .link--normal {
+        font-size: 16.8px;
+        line-height: 29.23px;
+    }
+    
 }
 
 @media only screen and (max-width: 320px) {
     .link--uppercase {
         font-size: 18px;
+    }
+
+    .link--normal {
+        font-size: 14.4px;
+        line-height: 20.5px;
+        text-align: center;
     }
 }

@@ -11,6 +11,7 @@ import Shadow2 from '../../../images/shadow_2.png';
 const DescriptionTemplate = (props) => {
   const { data } = props;
   const { title, text } = data.allContentfulHikingDescription.edges[0].node;
+
   return (
     <section className="wrapper--description">
       <Image

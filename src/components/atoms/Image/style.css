@@ -91,9 +91,9 @@
         height: 75.2px
     }
 
-    .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
-    .img--shapeFour, .img--shapeFive, .img--shapeSix, .img--shapeSeven,
-    .imgBox--shadow_3 {
+    .img--shapeOne, .img--shapeTwo, .img--shapeThree, .img--shapeFour,
+    .img--shapeFive, .img--shapeSix, .img--shapeSeven, .imgBox--shadow_1, 
+    .imgBox--shadow_2,.imgBox--shadow_3 {
         display: none;
     }
     
@@ -124,9 +124,9 @@
         height: auto;
     }
     
-    .img--shapeUp, .img--shapeDown, .imgBox--shadow_1, .imgBox--shadow_2,
-    .img--shapeFour, .img--shapeFive, .img--shapeSix, .img--shapeSeven, 
-    .imgBox--shadow_3 {
+    .img--shapeOne, .img--shapeTwo, .img--shapeThree, .img--shapeFour,
+    .img--shapeFive, .img--shapeSix, .img--shapeSeven, .imgBox--shadow_1, 
+    .imgBox--shadow_2,.imgBox--shadow_3 {
         display: none;
     }
 }

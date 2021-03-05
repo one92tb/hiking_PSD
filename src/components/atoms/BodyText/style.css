@@ -83,6 +83,8 @@
     max-width: 457px;
     font-size: 24px;
     text-align: left;
+    font-family: 'Montserrat';
+    padding: 27px 0 28.5px 0;
 }
 
 /* color */
@@ -170,6 +172,13 @@
         font-size: 21px;
         padding: 31.2px 0 47.4px 0;
     }
+
+    .bodyText_size--footer {
+        max-width: 457px;
+        font-size: 16.8px;
+        text-align: left;
+        padding: 16.2px 0 17.1px 0;
+    }
   }
   
 
@@ -229,6 +238,13 @@
         max-width: 300px;
         font-size: 18px;
         padding: 26px 0 39.5px 0;
+    }
+
+    .bodyText_size--footer {
+        max-width: 300px;
+        font-size: 14.4px;
+        text-align: center;
+        padding: 13.5px 0 14.25px 0;
     }
 }
 

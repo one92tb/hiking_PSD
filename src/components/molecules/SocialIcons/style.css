@@ -1,0 +1,11 @@
+.socialIcons {
+    display: flex;
+    width: 212px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 320px) {
+    .socialIcons {
+       margin: 0 auto;
+    }
+}

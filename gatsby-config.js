@@ -1,4 +1,4 @@
-const path = require(`path`);
+const path = require('path');
 
 module.exports = {
   siteMetadata: {
@@ -38,6 +38,16 @@ module.exports = {
         typekit: {
           id: process.env.TYPEKIT_ID,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'limelight',
+          'montserrat',
+        ],
+        display: 'swap',
       },
     },
   ],

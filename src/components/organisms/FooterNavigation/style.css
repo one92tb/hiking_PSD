@@ -1,0 +1,16 @@
+.footerNavs {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerNav {
+    padding-top: 30px;  
+}
+
+@media only screen and (max-width: 320px) {
+    .footerNavs {
+        margin: 0 auto;
+    }
+}
