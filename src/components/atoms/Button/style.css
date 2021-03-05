@@ -87,48 +87,48 @@
 
   @media only screen and (min-width:321px) and (max-width: 768px) {
     .button--small {
-      width: 218px;
-      height: 47px;
-      border-radius: 21.8px;
-      font-size: 25px;
+      width: 152.6px;
+      height: 32.9px  ;
+      border-radius: 15.26px;
+      font-size: 17.5px;
     }
 
     .button--medium {
-      width: 148.4px;
-      height: 52.8px;
+      width: 156.1px;
+      height: 46.2px;
       font-size: 17.5px;
-      border-radius: 17.84px;
+      border-radius: 15.61px;
     }
 
     .button--large {
-      width: 267.2px;
-      height: 68.8px;
+      width: 233.8px;
+      height: 53.2px;
       font-size: 20.3px;
-      border-radius: 26.72px;
+      border-radius: 23.38px;
       margin: 0 auto;
     }
   }
 
   @media only screen and (max-width: 320px) {
     .button--small {
-      width: 152.6px;
-      height: 32.9px;
-      border-radius: 15.26px;
+      width: 130.8px;
+      height: 28.2px;
+      border-radius: 13.8px;
       font-size: 15px;
     }
 
     .button--medium {
-      width: 126px;
-      height: 46.2px;
+      width: 133.8px;
+      height: 39.6px;
       font-size: 15px; 
-      border-radius: 15.6px;
+      border-radius: 13.38px;
     }
 
     .button--large {
-      width: 233.8px;
-      height: 53.2px;
+      width: 200.4px;
+      height: 45.6px;
       font-size: 17.4px;
-      border-radius: 23.38px;
+      border-radius: 20.04px;
       margin: 0 auto;
     }
   }

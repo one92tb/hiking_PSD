@@ -65,7 +65,7 @@
 
 @media only screen and (min-width:321px) and (max-width: 768px) {
     .input--large {
-        height: 50.8px;
+        height: 44.19px;
         border-radius: 30px;
         font-size: 17.5px;
     }
@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 320px) {
     .input--large {
-        height: 44.2px;
+        height: 37.59px;
         border-radius: 26.4px;
         font-size: 15px;
     }
