@@ -1,20 +1,34 @@
 @import '../../../_settings_/_variables.css';
 
 .icon {
-    font-size: 25px!important;
-    color: var(--grey-2);
     cursor: pointer;
 }
 
+.icon-small {
+    font-size: 25px!important;
+}
+
+.icon--large {
+    font-size: 40px!important;
+}
+
+.icon--scrollColor {
+    color: var(--dark-4);
+}
+
+.icon--socialMediaColor{
+    color: var(--grey-2);
+}
+
 @media only screen and (min-width:321px) and (max-width: 768px) {
-    .icon {
+    .icon-small {
         font-size: 17.5px!important;
     }
 }
 
 
 @media only screen and (max-width: 320px) {
-    .icon {
+    .icon-small {
         font-size: 15px!important;
     }
 }

@@ -97,7 +97,10 @@ Nav.propTypes = {
   linkSize: PropTypes.string,
   linkTheme: PropTypes.string,
   position: PropTypes.string,
-  visible: PropTypes.string,
+  visible: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.bool,
+  ]),
   className: PropTypes.string,
   refs: PropTypes.shape({
     home: PropTypes.oneOfType([

@@ -13,9 +13,11 @@ export const ButtonTheme = {
   CREAMY: 'button--creamy',
   GREY: 'button--grey',
   DARK: 'button--dark',
+  TRANSPARENT: 'button--transparent',
 };
 
 export const ButtonSize = {
+  VERYSMALL: 'button--verySmall',
   SMALL: 'button--small',
   MEDIUM: 'button--medium',
   LARGE: 'button--large',
@@ -24,11 +26,16 @@ export const ButtonSize = {
 export const ButtonPosition = {
   LETSGO: 'button--letsGoPosition',
   SUBSCRIBE: 'button--subscribePosition',
+  SCROLL: 'button--ScrollPosition ',
+};
+
+export const ButtonHidden = {
+  HIDDEN: 'button--hidden',
 };
 
 const Button = (props) => {
   const {
-    type, onClick, children, theme, size, className, position,
+    type, onClick, children, theme, size, className, position, visible,
   } = props;
   const classProps = classnames(
     'button',
@@ -36,6 +43,7 @@ const Button = (props) => {
     size,
     className,
     position,
+    visible,
   );
   return (
     <button type={type} onClick={onClick} className={classProps}>
@@ -51,6 +59,7 @@ Button.defaultProps = {
   onClick: () => {},
   className: '',
   position: '',
+  visible: '',
 };
 
 Button.propTypes = {
@@ -61,6 +70,10 @@ Button.propTypes = {
   className: PropTypes.string,
   position: PropTypes.string,
   children: PropTypes.node.isRequired,
+  visible: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.string,
+  ]),
 };
 
 export default Button;

@@ -9,7 +9,10 @@ const SocialIcons = () => (
   <div className="socialIcons">
     {[faInstagram, faFacebookF, faTwitter, faWhatsapp]
       .map((icon) => (
-        <IconBox key={icon.iconName} icon={icon} />
+        <IconBox
+          key={icon.iconName}
+          icon={icon}
+        />
       ))}
   </div>
 );

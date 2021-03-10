@@ -13,6 +13,7 @@
   .button:focus {
     border: none;
     outline: none;
+    transform: scale(1);
   }
 
   .button:hover {
@@ -22,6 +23,13 @@
   }
   
   /* Size */
+  .button--verySmall {
+    width: 120px;
+    height: 120px;
+    border: 10px solid var(--dark-4);
+    transition: all 1s ease;
+  }
+
   .button--small {
     width: 218px;
     height: 47px;
@@ -72,6 +80,10 @@
     color: #fff;
   }
 
+  .button--transparent {
+    background-color: transparent;
+  }
+
   /* position */
 
   .button--letsGoPosition {
@@ -85,6 +97,23 @@
     bottom: -1px;
   }
 
+  .button--ScrollPosition {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  /* hidden */
+
+  .button--hidden {
+    z-index: -1;
+    opacity: 0;
+    transition: all 1s ease;
+  };
+ 
   @media only screen and (min-width:321px) and (max-width: 768px) {
     .button--small {
       width: 152.6px;
