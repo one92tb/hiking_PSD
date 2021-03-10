@@ -7,7 +7,6 @@ import './style.css';
 const FooterTemplate = (props) => {
   const { data } = props;
   const { title, text } = data.allContentfulHikingFooter.edges[0].node;
-  console.log(title, text);
 
   return (
     <footer className="wrapper--footer">

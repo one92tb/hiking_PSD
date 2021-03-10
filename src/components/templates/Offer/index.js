@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import './style.css';
 import Discount from '../../organisms/Discount/index';
 
-const OfferTemplate = (props) => {
+const OfferTemplate = React.forwardRef((props, ref) => {
   const { data } = props;
   const { edges } = data.allContentfulHikingOffer;
 
   return (
-    <section className="wrapper--offer">
+    <section className="wrapper--offer" ref={ref}>
       { edges.sort((first, second) => first.node.order - second.node.order)
         .map((edge) => <Discount edge={edge} key={edge.node.title} />)}
     </section>
   );
-};
+});
 
 export default OfferTemplate;
 

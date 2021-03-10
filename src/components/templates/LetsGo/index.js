@@ -8,13 +8,13 @@ import Button, { ButtonSize, ButtonTheme, ButtonPosition } from '../../atoms/But
 import Image, { ImageBox } from '../../atoms/Image/index';
 import shadowFirst from '../../../images/shadow_1.png';
 
-const LetsGoTemplate = (props) => {
+const LetsGoTemplate = React.forwardRef((props, ref) => {
   const { data } = props;
   const { title, bodyText } = data.allContentfulHikingLetsgoText.edges[0].node;
   const { edges } = data.allContentfulHikingLetsgo;
 
   return (
-    <section className="wrapper--letsGo">
+    <section className="wrapper--letsGo" ref={ref}>
       <Subtitle size={SubtitleSize.LETSGO} color={SubtitleColor.CREAMY_2}>
         {title}
       </Subtitle>
@@ -36,7 +36,7 @@ const LetsGoTemplate = (props) => {
       />
     </section>
   );
-};
+});
 
 LetsGoTemplate.defualtProps = {
   data: {

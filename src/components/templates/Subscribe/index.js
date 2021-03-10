@@ -8,12 +8,12 @@ import Shape6 from '../../../images/shape_6.png';
 import Shape7 from '../../../images/shape_7.png';
 import './style.css';
 
-const SubscribeTemplate = (props) => {
+const SubscribeTemplate = React.forwardRef((props, ref) => {
   const { data } = props;
   const { title, text } = data.allContentfulHikingSubscribe.edges[0].node;
 
   return (
-    <section className="wrapper--subscribe">
+    <section className="wrapper--subscribe" ref={ref}>
       <div className="inner-subscribe">
         <Subtitle size={SubtitleSize.SUBSCRIBE} color={SubtitleColor.WHITE}>{title}</Subtitle>
         <BodyText size={BodyTextSize.SUBSCRIBE} color={BodyTextColor.DARK_1}>{text}</BodyText>
@@ -35,7 +35,7 @@ const SubscribeTemplate = (props) => {
       />
     </section>
   );
-};
+});
 
 export default SubscribeTemplate;
 

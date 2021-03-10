@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import OfferTemplate from '../../components/templates/Offer/index';
 
-const Offer = () => (
+const Offer = React.forwardRef((props, ref) => (
   <StaticQuery
     query={graphql`
         {
@@ -25,8 +25,8 @@ const Offer = () => (
           }
         }
       `}
-    render={(data) => <OfferTemplate data={data} />}
+    render={(data) => <OfferTemplate data={data} ref={ref} />}
   />
-);
+));
 
 export default Offer;

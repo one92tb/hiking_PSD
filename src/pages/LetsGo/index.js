@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import LetsGoTemplate from '../../components/templates/LetsGo/index';
 
-const LetsGo = () => (
+const LetsGo = React.forwardRef((props, ref) => (
   <StaticQuery
     query={graphql`
       {
@@ -35,9 +35,9 @@ const LetsGo = () => (
       }
     `}
     render={(data) => (
-      <LetsGoTemplate data={data} />
+      <LetsGoTemplate data={data} ref={ref} />
     )}
   />
-);
+));
 
 export default LetsGo;

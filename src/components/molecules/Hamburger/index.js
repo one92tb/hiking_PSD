@@ -4,7 +4,7 @@ import './style.css';
 
 const Hamburger = (props) => {
   const { setChecked, isChecked } = props;
-
+  const isActivate = isChecked ? 'hambuerger--checked' : 'hamburger--unchecked';
   return (
     <label
       htmlFor="toggle"
@@ -14,7 +14,7 @@ const Hamburger = (props) => {
       <input
         type="checkbox"
         id="toggle"
-        className="input--hidden input--hamburger"
+        className={`input--hidden ${isActivate}`}
         onClick={() => setChecked(!isChecked)}
       />
       <div className="toggle" />

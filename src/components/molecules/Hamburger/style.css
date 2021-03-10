@@ -18,15 +18,15 @@
     backface-visibility: hidden;
 }
 
-.input--hamburger:checked + div {
+.hambuerger--checked + div {
     transform: rotate(45deg) translate(8px, 8px);
 }
 
-.input--hamburger:checked ~ div:nth-of-type(2) {
+.hambuerger--checked ~ div:nth-of-type(2) {
     opacity: 0;
 }
 
-.input--hamburger:checked ~ div:nth-of-type(3) {
+.hambuerger--checked ~ div:nth-of-type(3) {
     transform: rotate(-45deg) translate(8px, -8px);
 }
 

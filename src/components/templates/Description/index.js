@@ -8,12 +8,12 @@ import Shape3 from '../../../images/shape_3.png';
 import Shape4 from '../../../images/shape_4.png';
 import Shadow2 from '../../../images/shadow_2.png';
 
-const DescriptionTemplate = (props) => {
+const DescriptionTemplate = React.forwardRef((props, ref) => {
   const { data } = props;
   const { title, text } = data.allContentfulHikingDescription.edges[0].node;
 
   return (
-    <section className="wrapper--description">
+    <section className="wrapper--description" ref={ref}>
       <Image
         width="100%"
         height="210"
@@ -46,7 +46,7 @@ const DescriptionTemplate = (props) => {
       />
     </section>
   );
-};
+});
 
 export default DescriptionTemplate;
 
