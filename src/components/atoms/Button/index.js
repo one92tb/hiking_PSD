@@ -2,6 +2,7 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import './style.css';
+import '../Icon/style.css';
 
 export const ButtonType = {
   BUTTON: 'button',

@@ -1,13 +1,13 @@
 import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import './style.css';
 import Link from '../../atoms/Link/index';
 import Input, { InputSize, InputColor } from '../../atoms/Input/index';
 import LetsGo from '../../templates/LetsGo/index';
 import Offer from '../../templates/Offer/index';
 import Description from '../../templates/Description/index';
 import Subscribe from '../../templates/Subscribe/index';
+import './style.css';
 
 export const NavLinks = {
   INTRO: ['home', 'menu', 'our story', 'contact us'],
